@@ -1,0 +1,27 @@
+@import 'normalize-scss';
+@include normalize();
+
+.App {
+  header {
+    font-size: 64px;
+    text-align: center;
+  }
+  header {
+    background: #444;
+    color: white;
+  }
+  nav {
+    display: flex;
+    background: #444;
+    color: white;
+    span {
+      padding: 10px;
+    }
+    span.active {
+      background: #888;
+    }
+  }
+  > div {
+    margin-left: 10px;
+  }
+}
