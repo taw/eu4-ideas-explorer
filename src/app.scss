@@ -10,6 +10,9 @@
     background: #444;
     color: white;
   }
+  div, .Nav {
+    margin: 0;
+  }
   nav {
     display: flex;
     background: #444;
@@ -21,7 +24,11 @@
       background: #888;
     }
   }
-  > div {
-    margin-left: 10px;
+  .BasicIdeasCard, .NationalIdeasCard {
+    margin: 10px;
+    border: 1px solid grey;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 5px;
   }
 }
