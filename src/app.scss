@@ -31,4 +31,17 @@
     grid-template-columns: 1fr 1fr;
     row-gap: 5px;
   }
+  .EffectCard {
+    margin: 10px;
+    border: 1px solid grey;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 5px;
+  }
+  span[href] {
+    cursor: pointer;
+  }
+  span[href]:hover {
+    text-decoration: underline;
+  }
 }

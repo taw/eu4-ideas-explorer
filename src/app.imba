@@ -1,13 +1,38 @@
 require 'imba-router'
 import './data/data.json' as db
 
-tag EffectsIndex
+tag EffectCard
   def render
     <self>
-      <h2>
-        "Effects Index"
-      <div>
-        "TODO"
+      for instance in data
+        <div>
+          instance[0]
+        <div>
+          <span route-to="/{instance[1]}/{instance[2]}">
+            db:loc[instance[2]]
+            " — "
+            db:loc[instance[3]]
+
+tag Effect
+  def render
+    let effect = db:effects[params:id]
+    <self>
+      <nav>
+        <span.active>
+          db:loc[params:id]
+      <EffectCard[effect]>
+
+
+tag EffectsIndex
+  def render
+    let effects = Object.keys(db:effects)
+    effects.sort()
+    <self>
+      <ul>
+        for effect_name in effects
+          <li>
+            <span route-to="/effects/{effect_name}">
+              db:loc[effect_name]
 
 tag Bonus
   def render
@@ -102,11 +127,11 @@ tag Nav
   def render
     <self>
       <nav>
-        <span route-to="/basic-index">
+        <span route-to="/basic/">
           "Basic Ideas"
-        <span route-to="/national-index">
+        <span route-to="/national/">
           "National Ideas"
-        <span route-to="/effects">
+        <span route-to="/effects/">
           "Effects"
 
 tag App
@@ -118,10 +143,11 @@ tag App
       <header>
         "EU4 Idea Explorer"
       <Nav>
-      <BasicIdeasIndex route="/basic-index">
-      <NationalIdeasIndex route="/national-index">
-      <EffectsIndex route="/effects">
+      <BasicIdeasIndex route="/basic/">
+      <NationalIdeasIndex route="/national/">
+      <EffectsIndex route="/effects/">
       <BasicIdeas route="/basic/:id">
       <NationalIdeas route="/national/:id">
+      <Effect route="/effects/:id">
 
 Imba.mount <App>
