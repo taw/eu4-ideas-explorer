@@ -441,3 +441,31 @@ template {
 
 .App span[href]:hover {
   text-decoration: underline; }
+
+.App .Property {
+  display: flex; }
+  .App .Property :first-child {
+    margin-right: 10px; }
+
+.App .OR, .App .AND, .App .NOT {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  padding: 5px;
+  width: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1px;
+  margin-bottom: 1px; }
+
+.App .OR {
+  background-color: #8f8; }
+
+.App .AND {
+  background-color: #88f; }
+
+.App .NOT {
+  background-color: #f88; }
+
+.App .val {
+  align-self: center; }
