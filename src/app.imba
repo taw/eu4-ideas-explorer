@@ -165,13 +165,6 @@ tag App
     self.router.mode = 'hash'
 
   def render
-    # FFS
-    let idea1 = db:national.find do |x| x:name == "barbary_pirate_ideas"
-    let idea2 = db:national.find do |x| x:name == "vindhyan_ideas"
-    let idea3 = db:national.find do |x| x:name == "pirate_ideas"
-    let idea4 = db:national.find do |x| x:name == "indian_muslim_ideas"
-    let idea5 = db:national.find do |x| x:name == "native_ideas"
-
     <self>
       <header>
         "EU4 Idea Explorer"
@@ -182,11 +175,5 @@ tag App
       <BasicIdeas route="/basic/:id">
       <NationalIdeas route="/national/:id">
       <Effect route="/effects/:id">
-
-      <NationalIdeasCard[idea1]>
-      <NationalIdeasCard[idea2]>
-      <NationalIdeasCard[idea3]>
-      <NationalIdeasCard[idea4]>
-      <NationalIdeasCard[idea5]>
 
 Imba.mount <App>
