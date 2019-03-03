@@ -1677,10 +1677,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "ENG"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "ENG"
+          ]
+        ]
+      }
     },
     {
       "name": "GBR_ideas",
@@ -1779,10 +1783,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "GBR"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "GBR"
+          ]
+        ]
+      }
     },
     {
       "name": "SWE_ideas",
@@ -1881,10 +1889,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "SWE"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "SWE"
+          ]
+        ]
+      }
     },
     {
       "name": "MOS_ideas",
@@ -1979,10 +1991,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "MOS"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "MOS"
+          ]
+        ]
+      }
     },
     {
       "name": "RUS_ideas",
@@ -2089,10 +2105,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "RUS"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "RUS"
+          ]
+        ]
+      }
     },
     {
       "name": "SPA_ideas",
@@ -2195,10 +2215,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "SPA"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "SPA"
+          ]
+        ]
+      }
     },
     {
       "name": "CAS_ideas",
@@ -2297,10 +2321,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "CAS"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "CAS"
+          ]
+        ]
+      }
     },
     {
       "name": "NED_ideas",
@@ -2399,9 +2427,25 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "OR",
+            {
+              "plist": [
+                [
+                  "tag",
+                  "NED"
+                ],
+                [
+                  "tag",
+                  "HOL"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "DAN_ideas",
@@ -2500,10 +2544,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "DAN"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "DAN"
+          ]
+        ]
+      }
     },
     {
       "name": "FRA_ideas",
@@ -2602,10 +2650,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "FRA"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "FRA"
+          ]
+        ]
+      }
     },
     {
       "name": "TUR_ideas",
@@ -2700,10 +2752,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "TUR"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "TUR"
+          ]
+        ]
+      }
     },
     {
       "name": "VEN_ideas",
@@ -2810,10 +2866,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "VEN"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "VEN"
+          ]
+        ]
+      }
     },
     {
       "name": "PRU_ideas",
@@ -2912,9 +2972,25 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "OR",
+            {
+              "plist": [
+                [
+                  "tag",
+                  "PRU"
+                ],
+                [
+                  "tag",
+                  "BRA"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "POR_ideas",
@@ -3013,10 +3089,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "POR"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "POR"
+          ]
+        ]
+      }
     },
     {
       "name": "POL_ideas",
@@ -3119,9 +3199,25 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "OR",
+            {
+              "plist": [
+                [
+                  "tag",
+                  "POL"
+                ],
+                [
+                  "tag",
+                  "PLC"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "HAB_ideas",
@@ -3228,9 +3324,36 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "OR",
+            {
+              "plist": [
+                [
+                  "tag",
+                  "HAB"
+                ],
+                [
+                  "AND",
+                  {
+                    "plist": [
+                      [
+                        "tag",
+                        "STY"
+                      ],
+                      [
+                        "dynasty",
+                        "von Habsburg"
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "CHI_ideas",
@@ -3325,10 +3448,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "MNG"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "MNG"
+          ]
+        ]
+      }
     },
     {
       "name": "BAV_ideas",
@@ -3423,10 +3550,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "BAV"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "BAV"
+          ]
+        ]
+      }
     },
     {
       "name": "PER_ideas",
@@ -3521,10 +3652,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "PER"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "PER"
+          ]
+        ]
+      }
     },
     {
       "name": "BUR_Ideas",
@@ -3615,10 +3750,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "BUR"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "BUR"
+          ]
+        ]
+      }
     },
     {
       "name": "GEN_Ideas",
@@ -3717,10 +3856,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "GEN"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "GEN"
+          ]
+        ]
+      }
     },
     {
       "name": "SCO_Ideas",
@@ -3811,10 +3954,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "SCO"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "SCO"
+          ]
+        ]
+      }
     },
     {
       "name": "HUN_ideas",
@@ -3905,10 +4052,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "HUN"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "HUN"
+          ]
+        ]
+      }
     },
     {
       "name": "JAP_ideas",
@@ -4003,10 +4154,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "JAP"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "JAP"
+          ]
+        ]
+      }
     },
     {
       "name": "MAM_ideas",
@@ -4101,10 +4256,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "MAM"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "MAM"
+          ]
+        ]
+      }
     },
     {
       "name": "NAP_ideas",
@@ -4195,10 +4354,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "NAP"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "NAP"
+          ]
+        ]
+      }
     },
     {
       "name": "ARA_ideas",
@@ -4293,10 +4456,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "ARA"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "ARA"
+          ]
+        ]
+      }
     },
     {
       "name": "MUG_ideas",
@@ -4387,10 +4554,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "MUG"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "MUG"
+          ]
+        ]
+      }
     },
     {
       "name": "TIM_ideas",
@@ -4485,10 +4656,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "TIM"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "TIM"
+          ]
+        ]
+      }
     },
     {
       "name": "HSA_ideas",
@@ -4587,10 +4762,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "HSA"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "HSA"
+          ]
+        ]
+      }
     },
     {
       "name": "MLO_ideas",
@@ -4681,10 +4860,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "MLO"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "MLO"
+          ]
+        ]
+      }
     },
     {
       "name": "BYZ_ideas",
@@ -4779,10 +4962,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "BYZ"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "BYZ"
+          ]
+        ]
+      }
     },
     {
       "name": "VIJ_ideas",
@@ -4877,10 +5064,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "VIJ"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "VIJ"
+          ]
+        ]
+      }
     },
     {
       "name": "AYU_ideas",
@@ -4971,10 +5162,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "AYU"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "AYU"
+          ]
+        ]
+      }
     },
     {
       "name": "NOR_ideas",
@@ -5073,10 +5268,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "NOR"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "NOR"
+          ]
+        ]
+      }
     },
     {
       "name": "OMA_ideas",
@@ -5175,10 +5374,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "OMA"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "OMA"
+          ]
+        ]
+      }
     },
     {
       "name": "KOR_ideas",
@@ -5269,10 +5472,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "KOR"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "KOR"
+          ]
+        ]
+      }
     },
     {
       "name": "BOH_ideas",
@@ -5367,10 +5574,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "BOH"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "BOH"
+          ]
+        ]
+      }
     },
     {
       "name": "ITA_ideas",
@@ -5465,10 +5676,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "ITA"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "ITA"
+          ]
+        ]
+      }
     },
     {
       "name": "MCH_ideas",
@@ -5563,9 +5778,37 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "OR",
+            {
+              "plist": [
+                [
+                  "tag",
+                  "MJZ"
+                ],
+                [
+                  "tag",
+                  "MHX"
+                ],
+                [
+                  "tag",
+                  "MYR"
+                ],
+                [
+                  "tag",
+                  "MCH"
+                ],
+                [
+                  "tag",
+                  "QNG"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "PAL_ideas",
@@ -5656,10 +5899,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "PAL"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "PAL"
+          ]
+        ]
+      }
     },
     {
       "name": "NOV_ideas",
@@ -5758,10 +6005,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "NOV"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "NOV"
+          ]
+        ]
+      }
     },
     {
       "name": "ETH_ideas",
@@ -5852,10 +6103,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "ETH"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "ETH"
+          ]
+        ]
+      }
     },
     {
       "name": "DAI_ideas",
@@ -5946,9 +6201,29 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "OR",
+            {
+              "plist": [
+                [
+                  "tag",
+                  "DAI"
+                ],
+                [
+                  "tag",
+                  "TOK"
+                ],
+                [
+                  "tag",
+                  "ANN"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "SAV_ideas",
@@ -6043,9 +6318,25 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "OR",
+            {
+              "plist": [
+                [
+                  "tag",
+                  "SAV"
+                ],
+                [
+                  "tag",
+                  "SPI"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "SAX_ideas",
@@ -6140,10 +6431,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "SAX"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "SAX"
+          ]
+        ]
+      }
     },
     {
       "name": "LIT_ideas",
@@ -6234,10 +6529,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "LIT"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "LIT"
+          ]
+        ]
+      }
     },
     {
       "name": "MAR_ideas",
@@ -6328,9 +6627,40 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "OR",
+            {
+              "plist": [
+                [
+                  "tag",
+                  "MAR"
+                ],
+                [
+                  "tag",
+                  "BDA"
+                ],
+                [
+                  "AND",
+                  {
+                    "plist": [
+                      [
+                        "TAG",
+                        "GWA"
+                      ],
+                      [
+                        "primary_culture",
+                        "marathi"
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "TAU_ideas",
@@ -6421,9 +6751,25 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "OR",
+            {
+              "plist": [
+                [
+                  "tag",
+                  "TAU"
+                ],
+                [
+                  "tag",
+                  "BPR"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "AVA_ideas",
@@ -6514,10 +6860,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "AVA"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "AVA"
+          ]
+        ]
+      }
     },
     {
       "name": "GRA_ideas",
@@ -6612,10 +6962,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "GRA"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "GRA"
+          ]
+        ]
+      }
     },
     {
       "name": "PAP_ideas",
@@ -6706,10 +7060,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "PAP"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "PAP"
+          ]
+        ]
+      }
     },
     {
       "name": "SER_ideas",
@@ -6800,10 +7158,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "SER"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "SER"
+          ]
+        ]
+      }
     },
     {
       "name": "ORI_ideas",
@@ -6894,10 +7256,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "ORI"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "ORI"
+          ]
+        ]
+      }
     },
     {
       "name": "PUN_ideas",
@@ -6988,10 +7354,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "PUN"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "PUN"
+          ]
+        ]
+      }
     },
     {
       "name": "RAG_ideas",
@@ -7086,10 +7456,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "RAG"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "RAG"
+          ]
+        ]
+      }
     },
     {
       "name": "RYU_ideas",
@@ -7180,10 +7554,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "RYU"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "RYU"
+          ]
+        ]
+      }
     },
     {
       "name": "ASS_ideas",
@@ -7278,10 +7656,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "ASS"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "ASS"
+          ]
+        ]
+      }
     },
     {
       "name": "TUS_ideas",
@@ -7376,9 +7758,25 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "OR",
+            {
+              "plist": [
+                [
+                  "tag",
+                  "TUS"
+                ],
+                [
+                  "tag",
+                  "LAN"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "USA_ideas",
@@ -7469,10 +7867,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "USA"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "USA"
+          ]
+        ]
+      }
     },
     {
       "name": "SWI_ideas",
@@ -7563,10 +7965,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "SWI"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "SWI"
+          ]
+        ]
+      }
     },
     {
       "name": "SON_ideas",
@@ -7657,10 +8063,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "SON"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "SON"
+          ]
+        ]
+      }
     },
     {
       "name": "BRI_ideas",
@@ -7755,10 +8165,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "BRI"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "BRI"
+          ]
+        ]
+      }
     },
     {
       "name": "NAJ_ideas",
@@ -7849,10 +8263,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "NAJ"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "NAJ"
+          ]
+        ]
+      }
     },
     {
       "name": "HED_ideas",
@@ -7947,9 +8365,25 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "OR",
+            {
+              "plist": [
+                [
+                  "tag",
+                  "HED"
+                ],
+                [
+                  "tag",
+                  "MDA"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "NPL_ideas",
@@ -8040,10 +8474,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "NPL"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "NPL"
+          ]
+        ]
+      }
     },
     {
       "name": "KNI_ideas",
@@ -8138,10 +8576,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "KNI"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "KNI"
+          ]
+        ]
+      }
     },
     {
       "name": "KON_ideas",
@@ -8240,9 +8682,29 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "OR",
+            {
+              "plist": [
+                [
+                  "tag",
+                  "KON"
+                ],
+                [
+                  "tag",
+                  "LOA"
+                ],
+                [
+                  "tag",
+                  "NDO"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "MAL_ideas",
@@ -8333,10 +8795,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "MAL"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "MAL"
+          ]
+        ]
+      }
     },
     {
       "name": "HUR_ideas",
@@ -8427,10 +8893,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "HUR"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "HUR"
+          ]
+        ]
+      }
     },
     {
       "name": "IRO_ideas",
@@ -8521,10 +8991,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "IRO"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "IRO"
+          ]
+        ]
+      }
     },
     {
       "name": "CHICK_ideas",
@@ -8619,10 +9093,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "CHI"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "CHI"
+          ]
+        ]
+      }
     },
     {
       "name": "CHE_ideas",
@@ -8713,10 +9191,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "CHE"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "CHE"
+          ]
+        ]
+      }
     },
     {
       "name": "PUE_ideas",
@@ -8811,9 +9293,29 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "OR",
+            {
+              "plist": [
+                [
+                  "tag",
+                  "PUE"
+                ],
+                [
+                  "tag",
+                  "KER"
+                ],
+                [
+                  "tag",
+                  "ZNI"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "SHA_ideas",
@@ -8904,10 +9406,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "SHA"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "SHA"
+          ]
+        ]
+      }
     },
     {
       "name": "CRE_ideas",
@@ -8998,10 +9504,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "CRE"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "CRE"
+          ]
+        ]
+      }
     },
     {
       "name": "KUR_ideas",
@@ -9104,10 +9614,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "KUR"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "KUR"
+          ]
+        ]
+      }
     },
     {
       "name": "PRO_ideas",
@@ -9202,10 +9716,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "PRO"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "PRO"
+          ]
+        ]
+      }
     },
     {
       "name": "MDI_ideas",
@@ -9300,10 +9818,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "MDI"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "MDI"
+          ]
+        ]
+      }
     },
     {
       "name": "TRE_ideas",
@@ -9398,10 +9920,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "TRE"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "TRE"
+          ]
+        ]
+      }
     },
     {
       "name": "GEO_ideas",
@@ -9496,9 +10022,25 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "OR",
+            {
+              "plist": [
+                [
+                  "tag",
+                  "GEO"
+                ],
+                [
+                  "tag",
+                  "IME"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "javan_ideas",
@@ -9593,9 +10135,25 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "OR",
+            {
+              "plist": [
+                [
+                  "tag",
+                  "MAJ"
+                ],
+                [
+                  "tag",
+                  "SUN"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "AFG_ideas",
@@ -9686,10 +10244,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "AFG"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "AFG"
+          ]
+        ]
+      }
     },
     {
       "name": "WAL_ideas",
@@ -9780,10 +10342,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "WAL"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "WAL"
+          ]
+        ]
+      }
     },
     {
       "name": "CRO_ideas",
@@ -9878,10 +10444,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "CRO"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "CRO"
+          ]
+        ]
+      }
     },
     {
       "name": "CYP_ideas",
@@ -9980,10 +10550,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "CYP"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "CYP"
+          ]
+        ]
+      }
     },
     {
       "name": "NAV_ideas",
@@ -10078,10 +10652,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "NAV"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "NAV"
+          ]
+        ]
+      }
     },
     {
       "name": "AZT_ideas",
@@ -10172,10 +10750,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "AZT"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "AZT"
+          ]
+        ]
+      }
     },
     {
       "name": "DAH_ideas",
@@ -10266,10 +10848,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "DAH"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "DAH"
+          ]
+        ]
+      }
     },
     {
       "name": "KBO_ideas",
@@ -10364,10 +10950,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "KBO"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "KBO"
+          ]
+        ]
+      }
     },
     {
       "name": "FEO_ideas",
@@ -10458,10 +11048,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "FEO"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "FEO"
+          ]
+        ]
+      }
     },
     {
       "name": "SIL_ideas",
@@ -10556,10 +11150,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "SIL"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "SIL"
+          ]
+        ]
+      }
     },
     {
       "name": "DNZ_ideas",
@@ -10654,10 +11252,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "DNZ"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "DNZ"
+          ]
+        ]
+      }
     },
     {
       "name": "KRA_ideas",
@@ -10752,10 +11354,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "KRA"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "KRA"
+          ]
+        ]
+      }
     },
     {
       "name": "AJU_ideas",
@@ -10850,10 +11456,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "AJU"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "AJU"
+          ]
+        ]
+      }
     },
     {
       "name": "RYA_ideas",
@@ -10952,10 +11562,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "RYA"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "RYA"
+          ]
+        ]
+      }
     },
     {
       "name": "TVE_ideas",
@@ -11046,10 +11660,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "TVE"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "TVE"
+          ]
+        ]
+      }
     },
     {
       "name": "YAR_ideas",
@@ -11144,10 +11762,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "YAR"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "YAR"
+          ]
+        ]
+      }
     },
     {
       "name": "PSK_ideas",
@@ -11238,10 +11860,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "PSK"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "PSK"
+          ]
+        ]
+      }
     },
     {
       "name": "SMO_ideas",
@@ -11332,10 +11958,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "SMO"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "SMO"
+          ]
+        ]
+      }
     },
     {
       "name": "BOS_ideas",
@@ -11434,10 +12064,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "BOS"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "BOS"
+          ]
+        ]
+      }
     },
     {
       "name": "MOL_ideas",
@@ -11528,10 +12162,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "MOL"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "MOL"
+          ]
+        ]
+      }
     },
     {
       "name": "AIR_ideas",
@@ -11622,9 +12260,14 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "TAG",
+            "AIR"
+          ]
+        ]
+      }
     },
     {
       "name": "mossi_ideas",
@@ -11715,9 +12358,25 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "OR",
+            {
+              "plist": [
+                [
+                  "TAG",
+                  "MSI"
+                ],
+                [
+                  "TAG",
+                  "YAT"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "fulani_jihad_ideas",
@@ -11808,9 +12467,25 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "OR",
+            {
+              "plist": [
+                [
+                  "TAG",
+                  "SOK"
+                ],
+                [
+                  "has_country_flag",
+                  "fulani_jihad_state"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "TAR_ideas",
@@ -11905,9 +12580,14 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "TAG",
+            "TAR"
+          ]
+        ]
+      }
     },
     {
       "name": "KAR_ideas",
@@ -11999,10 +12679,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "KAR"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "KAR"
+          ]
+        ]
+      }
     },
     {
       "name": "MON_ideas",
@@ -12097,10 +12781,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "MON"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "MON"
+          ]
+        ]
+      }
     },
     {
       "name": "RMN_ideas",
@@ -12195,10 +12883,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "RMN"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "RMN"
+          ]
+        ]
+      }
     },
     {
       "name": "ATH_ideas",
@@ -12293,10 +12985,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "ATH"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "ATH"
+          ]
+        ]
+      }
     },
     {
       "name": "GOT_ideas",
@@ -12387,10 +13083,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "GOT"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "GOT"
+          ]
+        ]
+      }
     },
     {
       "name": "FIN_ideas",
@@ -12485,10 +13185,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "FIN"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "FIN"
+          ]
+        ]
+      }
     },
     {
       "name": "ALB_ideas",
@@ -12583,10 +13287,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "ALB"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "ALB"
+          ]
+        ]
+      }
     },
     {
       "name": "PLT_ideas",
@@ -12681,10 +13389,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "PLT"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "PLT"
+          ]
+        ]
+      }
     },
     {
       "name": "PRM_ideas",
@@ -12775,10 +13487,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "PRM"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "PRM"
+          ]
+        ]
+      }
     },
     {
       "name": "ASH_ideas",
@@ -12869,10 +13585,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "ASH"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "ASH"
+          ]
+        ]
+      }
     },
     {
       "name": "MPC_ideas",
@@ -12963,10 +13683,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "MPC"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "MPC"
+          ]
+        ]
+      }
     },
     {
       "name": "INC_ideas",
@@ -13061,9 +13785,25 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "OR",
+            {
+              "plist": [
+                [
+                  "tag",
+                  "INC"
+                ],
+                [
+                  "tag",
+                  "CSU"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "CHM_ideas",
@@ -13154,10 +13894,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "CHM"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "CHM"
+          ]
+        ]
+      }
     },
     {
       "name": "MCA_ideas",
@@ -13248,10 +13992,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "MCA"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "MCA"
+          ]
+        ]
+      }
     },
     {
       "name": "CYA_ideas",
@@ -13342,10 +14090,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "CYA"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "CYA"
+          ]
+        ]
+      }
     },
     {
       "name": "TEU_ideas",
@@ -13448,10 +14200,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "TEU"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "TEU"
+          ]
+        ]
+      }
     },
     {
       "name": "BUL_ideas",
@@ -13542,10 +14298,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "BUL"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "BUL"
+          ]
+        ]
+      }
     },
     {
       "name": "KIE_ideas",
@@ -13640,10 +14400,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "KIE"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "KIE"
+          ]
+        ]
+      }
     },
     {
       "name": "NAX_ideas",
@@ -13742,10 +14506,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "NAX"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "NAX"
+          ]
+        ]
+      }
     },
     {
       "name": "TUA_ideas",
@@ -13836,10 +14604,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "TUA"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "TUA"
+          ]
+        ]
+      }
     },
     {
       "name": "POM_ideas",
@@ -13934,9 +14706,25 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "OR",
+            {
+              "plist": [
+                [
+                  "tag",
+                  "POM"
+                ],
+                [
+                  "primary_culture",
+                  "pommeranian"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "KAZ_ideas",
@@ -14027,10 +14815,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "KAZ"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "KAZ"
+          ]
+        ]
+      }
     },
     {
       "name": "ARM_ideas",
@@ -14121,9 +14913,25 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "OR",
+            {
+              "plist": [
+                [
+                  "tag",
+                  "ARM"
+                ],
+                [
+                  "tag",
+                  "MLK"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "WLS_ideas",
@@ -14218,10 +15026,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "WLS"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "WLS"
+          ]
+        ]
+      }
     },
     {
       "name": "hausa_ideas",
@@ -14312,9 +15124,33 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "OR",
+            {
+              "plist": [
+                [
+                  "TAG",
+                  "KTS"
+                ],
+                [
+                  "TAG",
+                  "KAN"
+                ],
+                [
+                  "TAG",
+                  "ZZZ"
+                ],
+                [
+                  "TAG",
+                  "HAU"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "GUA_ideas",
@@ -14405,10 +15241,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "GUA"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "GUA"
+          ]
+        ]
+      }
     },
     {
       "name": "CUA_ideas",
@@ -14499,10 +15339,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "CUA"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "CUA"
+          ]
+        ]
+      }
     },
     {
       "name": "CIR_ideas",
@@ -14601,10 +15445,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "CIR"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "CIR"
+          ]
+        ]
+      }
     },
     {
       "name": "LXA_ideas",
@@ -14699,10 +15547,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "LXA"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "LXA"
+          ]
+        ]
+      }
     },
     {
       "name": "KHI_ideas",
@@ -14793,10 +15645,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "KHI"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "KHI"
+          ]
+        ]
+      }
     },
     {
       "name": "BAH_ideas",
@@ -14891,9 +15747,18 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "BAH"
+          ],
+          [
+            "religion_group",
+            "muslim"
+          ]
+        ]
+      }
     },
     {
       "name": "JAJ_ideas",
@@ -14988,10 +15853,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "JAJ"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "JAJ"
+          ]
+        ]
+      }
     },
     {
       "name": "JNP_ideas",
@@ -15082,9 +15951,18 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "JNP"
+          ],
+          [
+            "religion_group",
+            "muslim"
+          ]
+        ]
+      }
     },
     {
       "name": "HAM_ideas",
@@ -15179,10 +16057,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "HAM"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "HAM"
+          ]
+        ]
+      }
     },
     {
       "name": "jerusalem_ideas",
@@ -15277,9 +16159,18 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "KOJ"
+          ],
+          [
+            "religion_group",
+            "christian"
+          ]
+        ]
+      }
     },
     {
       "name": "KHM_ideas",
@@ -15374,10 +16265,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "KHM"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "KHM"
+          ]
+        ]
+      }
     },
     {
       "name": "ZAZ_ideas",
@@ -15472,10 +16367,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "ZAZ"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "ZAZ"
+          ]
+        ]
+      }
     },
     {
       "name": "CAN_ideas",
@@ -15570,10 +16469,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "CAN"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "CAN"
+          ]
+        ]
+      }
     },
     {
       "name": "QUE_ideas",
@@ -15664,10 +16567,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "QUE"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "QUE"
+          ]
+        ]
+      }
     },
     {
       "name": "MEX_ideas",
@@ -15758,10 +16665,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "MEX"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "MEX"
+          ]
+        ]
+      }
     },
     {
       "name": "TRA_ideas",
@@ -15852,10 +16763,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "TRA"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "TRA"
+          ]
+        ]
+      }
     },
     {
       "name": "SUK_ideas",
@@ -15946,10 +16861,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "SUK"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "SUK"
+          ]
+        ]
+      }
     },
     {
       "name": "WBG_ideas",
@@ -16044,10 +16963,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "WBG"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "WBG"
+          ]
+        ]
+      }
     },
     {
       "name": "CEY_ideas",
@@ -16138,9 +17061,25 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "OR",
+            {
+              "plist": [
+                [
+                  "tag",
+                  "CEY"
+                ],
+                [
+                  "tag",
+                  "KND"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "CND_ideas",
@@ -16235,10 +17174,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "CND"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "CND"
+          ]
+        ]
+      }
     },
     {
       "name": "BRZ_ideas",
@@ -16329,10 +17272,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "BRZ"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "BRZ"
+          ]
+        ]
+      }
     },
     {
       "name": "CAB_ideas",
@@ -16423,10 +17370,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "CAB"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "CAB"
+          ]
+        ]
+      }
     },
     {
       "name": "BEN_ideas",
@@ -16517,10 +17468,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "BEN"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "BEN"
+          ]
+        ]
+      }
     },
     {
       "name": "BRE_ideas",
@@ -16611,9 +17566,25 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "OR",
+            {
+              "plist": [
+                [
+                  "tag",
+                  "BRE"
+                ],
+                [
+                  "tag",
+                  "VER"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "SHL_ideas",
@@ -16704,10 +17675,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "SHL"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "SHL"
+          ]
+        ]
+      }
     },
     {
       "name": "HES_ideas",
@@ -16802,10 +17777,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "HES"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "HES"
+          ]
+        ]
+      }
     },
     {
       "name": "ARK_ideas",
@@ -16900,10 +17879,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "ARK"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "ARK"
+          ]
+        ]
+      }
     },
     {
       "name": "NOL_ideas",
@@ -16994,10 +17977,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "NOL"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "NOL"
+          ]
+        ]
+      }
     },
     {
       "name": "MUN_ideas",
@@ -17092,10 +18079,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "MUN"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "MUN"
+          ]
+        ]
+      }
     },
     {
       "name": "THU_ideas",
@@ -17186,10 +18177,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "THU"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "THU"
+          ]
+        ]
+      }
     },
     {
       "name": "BTI_ideas",
@@ -17280,10 +18275,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "BTI"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "BTI"
+          ]
+        ]
+      }
     },
     {
       "name": "CAT_ideas",
@@ -17374,9 +18373,29 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "OR",
+            {
+              "plist": [
+                [
+                  "tag",
+                  "CAT"
+                ],
+                [
+                  "tag",
+                  "VAL"
+                ],
+                [
+                  "tag",
+                  "MJO"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "LNA_ideas",
@@ -17467,10 +18486,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "LNA"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "LNA"
+          ]
+        ]
+      }
     },
     {
       "name": "PGR_ideas",
@@ -17561,10 +18584,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "PGR"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "PGR"
+          ]
+        ]
+      }
     },
     {
       "name": "CMI_ideas",
@@ -17655,10 +18682,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "CMI"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "CMI"
+          ]
+        ]
+      }
     },
     {
       "name": "CHA_ideas",
@@ -17749,10 +18780,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "CHA"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "CHA"
+          ]
+        ]
+      }
     },
     {
       "name": "BAD_ideas",
@@ -17843,10 +18878,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "BAD"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "BAD"
+          ]
+        ]
+      }
     },
     {
       "name": "SDY_ideas",
@@ -17937,10 +18976,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "SDY"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "SDY"
+          ]
+        ]
+      }
     },
     {
       "name": "MLB_ideas",
@@ -18031,10 +19074,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "MLB"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "MLB"
+          ]
+        ]
+      }
     },
     {
       "name": "PEG_ideas",
@@ -18125,10 +19172,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "PEG"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "PEG"
+          ]
+        ]
+      }
     },
     {
       "name": "KUT_ideas",
@@ -18219,10 +19270,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "KUT"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "KUT"
+          ]
+        ]
+      }
     },
     {
       "name": "KIC_ideas",
@@ -18313,10 +19368,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "KIC"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "KIC"
+          ]
+        ]
+      }
     },
     {
       "name": "LDK_ideas",
@@ -18407,10 +19466,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "LDK"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "LDK"
+          ]
+        ]
+      }
     },
     {
       "name": "ZIM_ideas",
@@ -18505,10 +19568,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "ZIM"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "ZIM"
+          ]
+        ]
+      }
     },
     {
       "name": "BAL_ideas",
@@ -18599,10 +19666,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "BAL"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "BAL"
+          ]
+        ]
+      }
     },
     {
       "name": "ORL_ideas",
@@ -18690,10 +19761,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "ORL"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "ORL"
+          ]
+        ]
+      }
     },
     {
       "name": "ORM_ideas",
@@ -18788,10 +19863,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "ORM"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "ORM"
+          ]
+        ]
+      }
     },
     {
       "name": "KGR_ideas",
@@ -18886,10 +19965,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "KGR"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "KGR"
+          ]
+        ]
+      }
     },
     {
       "name": "KAS_ideas",
@@ -18984,10 +20067,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "KAS"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "KAS"
+          ]
+        ]
+      }
     },
     {
       "name": "LUX_ideas",
@@ -19078,10 +20165,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "LUX"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "LUX"
+          ]
+        ]
+      }
     },
     {
       "name": "LON_ideas",
@@ -19172,10 +20263,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "LON"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "LON"
+          ]
+        ]
+      }
     },
     {
       "name": "CYI_ideas",
@@ -19270,10 +20365,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "CYI"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "CYI"
+          ]
+        ]
+      }
     },
     {
       "name": "NZH_ideas",
@@ -19364,10 +20463,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "NZH"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "NZH"
+          ]
+        ]
+      }
     },
     {
       "name": "SMI_ideas",
@@ -19458,10 +20561,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "SMI"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "SMI"
+          ]
+        ]
+      }
     },
     {
       "name": "MAZ_ideas",
@@ -19552,10 +20659,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "MAZ"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "MAZ"
+          ]
+        ]
+      }
     },
     {
       "name": "GAL_ideas",
@@ -19646,10 +20757,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "GAL"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "GAL"
+          ]
+        ]
+      }
     },
     {
       "name": "NEV_ideas",
@@ -19740,10 +20855,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "NEV"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "NEV"
+          ]
+        ]
+      }
     },
     {
       "name": "MED_ideas",
@@ -19834,10 +20953,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "MED"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "MED"
+          ]
+        ]
+      }
     },
     {
       "name": "CDL_ideas",
@@ -19928,10 +21051,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "CDL"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "CDL"
+          ]
+        ]
+      }
     },
     {
       "name": "JMN_ideas",
@@ -20022,10 +21149,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "JMN"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "JMN"
+          ]
+        ]
+      }
     },
     {
       "name": "TRT_ideas",
@@ -20116,10 +21247,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "TRT"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "TRT"
+          ]
+        ]
+      }
     },
     {
       "name": "MRA_ideas",
@@ -20210,10 +21345,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "MRA"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "MRA"
+          ]
+        ]
+      }
     },
     {
       "name": "ROM_ideas",
@@ -20308,10 +21447,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "ROM"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "ROM"
+          ]
+        ]
+      }
     },
     {
       "name": "MNS_ideas",
@@ -20402,10 +21545,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "MNS"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "MNS"
+          ]
+        ]
+      }
     },
     {
       "name": "SLN_ideas",
@@ -20504,10 +21651,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "SLN"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "SLN"
+          ]
+        ]
+      }
     },
     {
       "name": "ANT_ideas",
@@ -20598,10 +21749,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "ANT"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "ANT"
+          ]
+        ]
+      }
     },
     {
       "name": "BTS_ideas",
@@ -20696,10 +21851,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "BTS"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "BTS"
+          ]
+        ]
+      }
     },
     {
       "name": "MIR_ideas",
@@ -20790,10 +21949,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "MIR"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "MIR"
+          ]
+        ]
+      }
     },
     {
       "name": "TBK_ideas",
@@ -20884,10 +22047,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "TBK"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "TBK"
+          ]
+        ]
+      }
     },
     {
       "name": "LUB_ideas",
@@ -20978,10 +22145,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "LUB"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "LUB"
+          ]
+        ]
+      }
     },
     {
       "name": "KUB_ideas",
@@ -21072,10 +22243,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "KUB"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "KUB"
+          ]
+        ]
+      }
     },
     {
       "name": "LND_ideas",
@@ -21170,10 +22345,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "LND"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "LND"
+          ]
+        ]
+      }
     },
     {
       "name": "RZW_ideas",
@@ -21264,10 +22443,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "RZW"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "RZW"
+          ]
+        ]
+      }
     },
     {
       "name": "DMS_ideas",
@@ -21366,10 +22549,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "DMS"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "DMS"
+          ]
+        ]
+      }
     },
     {
       "name": "MLW_ideas",
@@ -21464,10 +22651,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "MLW"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "MLW"
+          ]
+        ]
+      }
     },
     {
       "name": "PAT_ideas",
@@ -21562,10 +22753,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "PAT"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "PAT"
+          ]
+        ]
+      }
     },
     {
       "name": "KAF_ideas",
@@ -21656,10 +22851,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "KAF"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "KAF"
+          ]
+        ]
+      }
     },
     {
       "name": "CEP_ideas",
@@ -21750,10 +22949,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "CEP"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "CEP"
+          ]
+        ]
+      }
     },
     {
       "name": "LOR_ideas",
@@ -21844,10 +23047,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "LOR"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "LOR"
+          ]
+        ]
+      }
     },
     {
       "name": "WUR_ideas",
@@ -21938,10 +23145,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "WUR"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "WUR"
+          ]
+        ]
+      }
     },
     {
       "name": "SLO_ideas",
@@ -22036,10 +23247,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "SLO"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "SLO"
+          ]
+        ]
+      }
     },
     {
       "name": "GLH_ideas",
@@ -22134,10 +23349,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "GLH"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "GLH"
+          ]
+        ]
+      }
     },
     {
       "name": "YUA_ideas",
@@ -22232,10 +23451,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "YUA"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "YUA"
+          ]
+        ]
+      }
     },
     {
       "name": "ANS_ideas",
@@ -22330,10 +23553,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "ANS"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "ANS"
+          ]
+        ]
+      }
     },
     {
       "name": "OKA_ideas",
@@ -22424,10 +23651,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "OKA"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "OKA"
+          ]
+        ]
+      }
     },
     {
       "name": "GHR_ideas",
@@ -22530,10 +23761,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "GHR"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "GHR"
+          ]
+        ]
+      }
     },
     {
       "name": "DTT_ideas",
@@ -22628,10 +23863,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "DTT"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "DTT"
+          ]
+        ]
+      }
     },
     {
       "name": "HTK_ideas",
@@ -22726,10 +23965,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "HTK"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "HTK"
+          ]
+        ]
+      }
     },
     {
       "name": "IMG_ideas",
@@ -22828,10 +24071,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "IMG"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "IMG"
+          ]
+        ]
+      }
     },
     {
       "name": "AMA_ideas",
@@ -22922,10 +24169,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "AMA"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "AMA"
+          ]
+        ]
+      }
     },
     {
       "name": "HSK_ideas",
@@ -23016,10 +24267,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "HSK"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "HSK"
+          ]
+        ]
+      }
     },
     {
       "name": "UES_ideas",
@@ -23110,10 +24365,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "UES"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "UES"
+          ]
+        ]
+      }
     },
     {
       "name": "YMN_ideas",
@@ -23204,10 +24463,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "YMN"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "YMN"
+          ]
+        ]
+      }
     },
     {
       "name": "DTE_ideas",
@@ -23302,10 +24565,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "DTE"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "DTE"
+          ]
+        ]
+      }
     },
     {
       "name": "SHN_ideas",
@@ -23396,10 +24663,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "SHN"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "SHN"
+          ]
+        ]
+      }
     },
     {
       "name": "OGS_ideas",
@@ -23494,10 +24765,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "OGS"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "OGS"
+          ]
+        ]
+      }
     },
     {
       "name": "OTM_ideas",
@@ -23592,10 +24867,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "OTM"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "OTM"
+          ]
+        ]
+      }
     },
     {
       "name": "OUC_ideas",
@@ -23690,10 +24969,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "OUC"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "OUC"
+          ]
+        ]
+      }
     },
     {
       "name": "UTN_ideas",
@@ -23784,10 +25067,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "UTN"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "UTN"
+          ]
+        ]
+      }
     },
     {
       "name": "ASK_ideas",
@@ -23882,10 +25169,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "ASK"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "ASK"
+          ]
+        ]
+      }
     },
     {
       "name": "TKI_ideas",
@@ -23980,10 +25271,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "TKI"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "TKI"
+          ]
+        ]
+      }
     },
     {
       "name": "STK_ideas",
@@ -24074,10 +25369,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "STK"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "STK"
+          ]
+        ]
+      }
     },
     {
       "name": "AKT_ideas",
@@ -24168,10 +25467,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "AKT"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "AKT"
+          ]
+        ]
+      }
     },
     {
       "name": "CBA_ideas",
@@ -24262,10 +25565,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "CBA"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "CBA"
+          ]
+        ]
+      }
     },
     {
       "name": "SMZ_ideas",
@@ -24356,10 +25663,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "SMZ"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "SMZ"
+          ]
+        ]
+      }
     },
     {
       "name": "ITO_ideas",
@@ -24454,10 +25765,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "ITO"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "ITO"
+          ]
+        ]
+      }
     },
     {
       "name": "ISK_ideas",
@@ -24548,10 +25863,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "ISK"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "ISK"
+          ]
+        ]
+      }
     },
     {
       "name": "TTI_ideas",
@@ -24642,10 +25961,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "TTI"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "TTI"
+          ]
+        ]
+      }
     },
     {
       "name": "KKC_ideas",
@@ -24740,10 +26063,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "KKC"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "KKC"
+          ]
+        ]
+      }
     },
     {
       "name": "KNO_ideas",
@@ -24842,10 +26169,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "KNO"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "KNO"
+          ]
+        ]
+      }
     },
     {
       "name": "RFR_ideas",
@@ -24936,10 +26267,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "RFR"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "RFR"
+          ]
+        ]
+      }
     },
     {
       "name": "TKD_ideas",
@@ -25034,10 +26369,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "TKD"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "TKD"
+          ]
+        ]
+      }
     },
     {
       "name": "SBA_ideas",
@@ -25128,10 +26467,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "SBA"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "SBA"
+          ]
+        ]
+      }
     },
     {
       "name": "BLO_ideas",
@@ -25222,10 +26565,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "BLO"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "BLO"
+          ]
+        ]
+      }
     },
     {
       "name": "RSO_ideas",
@@ -25316,10 +26663,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "RSO"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "RSO"
+          ]
+        ]
+      }
     },
     {
       "name": "MVA_ideas",
@@ -25414,10 +26765,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "MVA"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "MVA"
+          ]
+        ]
+      }
     },
     {
       "name": "EST_ideas",
@@ -25512,10 +26867,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "EST"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "EST"
+          ]
+        ]
+      }
     },
     {
       "name": "TPR_ideas",
@@ -25606,10 +26965,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "TPR"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "TPR"
+          ]
+        ]
+      }
     },
     {
       "name": "HAN_ideas",
@@ -25700,10 +27063,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "HAN"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "HAN"
+          ]
+        ]
+      }
     },
     {
       "name": "AKK_ideas",
@@ -25798,10 +27165,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "AKK"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "AKK"
+          ]
+        ]
+      }
     },
     {
       "name": "KHO_ideas",
@@ -25892,10 +27263,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "KHO"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "KHO"
+          ]
+        ]
+      }
     },
     {
       "name": "TRS_ideas",
@@ -25983,10 +27358,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "TRS"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "TRS"
+          ]
+        ]
+      }
     },
     {
       "name": "QOM_ideas",
@@ -26082,10 +27461,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "QOM"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "QOM"
+          ]
+        ]
+      }
     },
     {
       "name": "FRS_ideas",
@@ -26180,10 +27563,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "FRS"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "FRS"
+          ]
+        ]
+      }
     },
     {
       "name": "LRI_ideas",
@@ -26274,10 +27661,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "LRI"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "LRI"
+          ]
+        ]
+      }
     },
     {
       "name": "QAR_ideas",
@@ -26369,10 +27760,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "QAR"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "QAR"
+          ]
+        ]
+      }
     },
     {
       "name": "MHR_ideas",
@@ -26467,10 +27862,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "MHR"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "MHR"
+          ]
+        ]
+      }
     },
     {
       "name": "YEM_ideas",
@@ -26561,9 +27960,25 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "OR",
+            {
+              "plist": [
+                [
+                  "tag",
+                  "YEM"
+                ],
+                [
+                  "tag",
+                  "ADE"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "RAS_ideas",
@@ -26651,10 +28066,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "RAS"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "RAS"
+          ]
+        ]
+      }
     },
     {
       "name": "MSY_ideas",
@@ -26749,10 +28168,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "MSY"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "MSY"
+          ]
+        ]
+      }
     },
     {
       "name": "SIS_ideas",
@@ -26843,10 +28266,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "SIS"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "SIS"
+          ]
+        ]
+      }
     },
     {
       "name": "RUM_ideas",
@@ -26941,10 +28368,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "RUM"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "RUM"
+          ]
+        ]
+      }
     },
     {
       "name": "ARL_ideas",
@@ -27039,9 +28470,18 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "ARL"
+          ],
+          [
+            "religion",
+            "shiite"
+          ]
+        ]
+      }
     },
     {
       "name": "SME_ideas",
@@ -27132,10 +28572,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "SME"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "SME"
+          ]
+        ]
+      }
     },
     {
       "name": "SRV_ideas",
@@ -27234,10 +28678,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "SRV"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "SRV"
+          ]
+        ]
+      }
     },
     {
       "name": "ALH_ideas",
@@ -27332,10 +28780,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "ALH"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "ALH"
+          ]
+        ]
+      }
     },
     {
       "name": "HDR_ideas",
@@ -27430,10 +28882,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "HDR"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "HDR"
+          ]
+        ]
+      }
     },
     {
       "name": "HSN_ideas",
@@ -27524,10 +28980,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "HSN"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "HSN"
+          ]
+        ]
+      }
     },
     {
       "name": "KTB_ideas",
@@ -27618,10 +29078,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "KTB"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "KTB"
+          ]
+        ]
+      }
     },
     {
       "name": "ODA_ideas",
@@ -27716,10 +29180,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "ODA"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "ODA"
+          ]
+        ]
+      }
     },
     {
       "name": "TKG_ideas",
@@ -27810,10 +29278,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "TKG"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "TKG"
+          ]
+        ]
+      }
     },
     {
       "name": "MAS_ideas",
@@ -27904,10 +29376,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "MAS"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "MAS"
+          ]
+        ]
+      }
     },
     {
       "name": "BTU_ideas",
@@ -27998,10 +29474,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "BTU"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "BTU"
+          ]
+        ]
+      }
     },
     {
       "name": "CEB_ideas",
@@ -28096,10 +29576,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "CEB"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "CEB"
+          ]
+        ]
+      }
     },
     {
       "name": "ANU_ideas",
@@ -28190,10 +29674,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "ANU"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "ANU"
+          ]
+        ]
+      }
     },
     {
       "name": "HJO_ideas",
@@ -28284,10 +29772,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "HJO"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "HJO"
+          ]
+        ]
+      }
     },
     {
       "name": "CSK_ideas",
@@ -28378,10 +29870,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "CSK"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "CSK"
+          ]
+        ]
+      }
     },
     {
       "name": "MRI_ideas",
@@ -28472,10 +29968,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "MRI"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "MRI"
+          ]
+        ]
+      }
     },
     {
       "name": "ASA_ideas",
@@ -28566,10 +30066,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "ASA"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "ASA"
+          ]
+        ]
+      }
     },
     {
       "name": "KID_ideas",
@@ -28660,10 +30164,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "KID"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "KID"
+          ]
+        ]
+      }
     },
     {
       "name": "TYR_ideas",
@@ -28762,10 +30270,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "TYR"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "TYR"
+          ]
+        ]
+      }
     },
     {
       "name": "TRY_ideas",
@@ -28856,10 +30368,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "TRY"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "TRY"
+          ]
+        ]
+      }
     },
     {
       "name": "MCM_ideas",
@@ -28954,10 +30470,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "MCM"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "MCM"
+          ]
+        ]
+      }
     },
     {
       "name": "LEI_ideas",
@@ -29048,10 +30568,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "LEI"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "LEI"
+          ]
+        ]
+      }
     },
     {
       "name": "CNN_ideas",
@@ -29142,10 +30666,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "CNN"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "CNN"
+          ]
+        ]
+      }
     },
     {
       "name": "ORD_ideas",
@@ -29236,10 +30764,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "ORD"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "ORD"
+          ]
+        ]
+      }
     },
     {
       "name": "irish_ideas",
@@ -29338,10 +30870,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "IRE"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "IRE"
+          ]
+        ]
+      }
     },
     {
       "name": "ULS_ideas",
@@ -29436,10 +30972,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "ULS"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "ULS"
+          ]
+        ]
+      }
     },
     {
       "name": "FLY_ideas",
@@ -29542,10 +31082,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "FLY"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "FLY"
+          ]
+        ]
+      }
     },
     {
       "name": "CRN_ideas",
@@ -29640,10 +31184,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "CRN"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "CRN"
+          ]
+        ]
+      }
     },
     {
       "name": "KOI_ideas",
@@ -29734,10 +31282,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "KOI"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "KOI"
+          ]
+        ]
+      }
     },
     {
       "name": "MTH_ideas",
@@ -29828,10 +31380,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "MTH"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "MTH"
+          ]
+        ]
+      }
     },
     {
       "name": "FRI_ideas",
@@ -29934,10 +31490,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "FRI"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "FRI"
+          ]
+        ]
+      }
     },
     {
       "name": "UTR_ideas",
@@ -30052,10 +31612,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "UTR"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "UTR"
+          ]
+        ]
+      }
     },
     {
       "name": "FLA_ideas",
@@ -30146,10 +31710,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "FLA"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "FLA"
+          ]
+        ]
+      }
     },
     {
       "name": "BRB_ideas",
@@ -30244,10 +31812,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "BRB"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "BRB"
+          ]
+        ]
+      }
     },
     {
       "name": "LIE_ideas",
@@ -30338,10 +31910,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "LIE"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "LIE"
+          ]
+        ]
+      }
     },
     {
       "name": "GEL_ideas",
@@ -30432,10 +32008,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "GEL"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "GEL"
+          ]
+        ]
+      }
     },
     {
       "name": "EFR_ideas",
@@ -30526,10 +32106,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "EFR"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "EFR"
+          ]
+        ]
+      }
     },
     {
       "name": "AAC_ideas",
@@ -30620,10 +32204,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "AAC"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "AAC"
+          ]
+        ]
+      }
     },
     {
       "name": "KLE_ideas",
@@ -30726,10 +32314,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "KLE"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "KLE"
+          ]
+        ]
+      }
     },
     {
       "name": "DEC_ideas",
@@ -30817,10 +32409,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "DEC"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "DEC"
+          ]
+        ]
+      }
     },
     {
       "name": "DLH_ideas",
@@ -30911,10 +32507,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "DLH"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "DLH"
+          ]
+        ]
+      }
     },
     {
       "name": "BHA_ideas",
@@ -31005,10 +32605,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "BHA"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "BHA"
+          ]
+        ]
+      }
     },
     {
       "name": "HIN_ideas",
@@ -31099,10 +32703,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "HIN"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "HIN"
+          ]
+        ]
+      }
     },
     {
       "name": "RJP_ideas",
@@ -31197,10 +32805,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "RJP"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "RJP"
+          ]
+        ]
+      }
     },
     {
       "name": "NAG_ideas",
@@ -31291,10 +32903,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "NAG"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "NAG"
+          ]
+        ]
+      }
     },
     {
       "name": "MER_ideas",
@@ -31385,10 +33001,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "MER"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "MER"
+          ]
+        ]
+      }
     },
     {
       "name": "BNG_ideas",
@@ -31479,10 +33099,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "BNG"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "BNG"
+          ]
+        ]
+      }
     },
     {
       "name": "GUJ_ideas",
@@ -31573,10 +33197,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "GUJ"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "GUJ"
+          ]
+        ]
+      }
     },
     {
       "name": "SND_ideas",
@@ -31667,10 +33295,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "SND"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "SND"
+          ]
+        ]
+      }
     },
     {
       "name": "DHU_ideas",
@@ -31761,10 +33393,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "DHU"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "DHU"
+          ]
+        ]
+      }
     },
     {
       "name": "MYS_ideas",
@@ -31855,10 +33491,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "MYS"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "MYS"
+          ]
+        ]
+      }
     },
     {
       "name": "RIG_ideas",
@@ -31957,10 +33597,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "RIG"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "RIG"
+          ]
+        ]
+      }
     },
     {
       "name": "CRI_ideas",
@@ -32055,10 +33699,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "CRI"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "CRI"
+          ]
+        ]
+      }
     },
     {
       "name": "CHR_ideas",
@@ -32149,10 +33797,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "CHR"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "CHR"
+          ]
+        ]
+      }
     },
     {
       "name": "ILK_ideas",
@@ -32251,10 +33903,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "ILK"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "ILK"
+          ]
+        ]
+      }
     },
     {
       "name": "SYN_ideas",
@@ -32349,10 +34005,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "SYN"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "SYN"
+          ]
+        ]
+      }
     },
     {
       "name": "MOR_ideas",
@@ -32455,10 +34115,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "MOR"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "MOR"
+          ]
+        ]
+      }
     },
     {
       "name": "TUN_ideas",
@@ -32565,10 +34229,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "TUN"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "TUN"
+          ]
+        ]
+      }
     },
     {
       "name": "TEX_ideas",
@@ -32663,10 +34331,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "TEX"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "TEX"
+          ]
+        ]
+      }
     },
     {
       "name": "ASU_ideas",
@@ -32757,10 +34429,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "ASU"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "ASU"
+          ]
+        ]
+      }
     },
     {
       "name": "ADU_ideas",
@@ -32863,10 +34539,14 @@
           ]
         ]
       },
-      "trigger": [
-        "country",
-        "ADU"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "tag",
+            "ADU"
+          ]
+        ]
+      }
     },
     {
       "name": "client_ideas",
@@ -32957,9 +34637,14 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "is_client_nation",
+            true
+          ]
+        ]
+      }
     },
     {
       "name": "colonial_ideas",
@@ -33054,9 +34739,14 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "is_colonial_nation",
+            true
+          ]
+        ]
+      }
     },
     {
       "name": "barbary_pirate_ideas",
@@ -33159,9 +34849,33 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "has_reform",
+            "pirate_republic_reform"
+          ],
+          [
+            "OR",
+            {
+              "plist": [
+                [
+                  "culture_group",
+                  "maghrebi"
+                ],
+                [
+                  "tag",
+                  "TET"
+                ],
+                [
+                  "tag",
+                  "SLE"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "pirate_ideas",
@@ -33260,9 +34974,47 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "has_reform",
+            "pirate_republic_reform"
+          ],
+          [
+            "NOT",
+            {
+              "plist": [
+                [
+                  "culture_group",
+                  "maghrebi"
+                ]
+              ]
+            }
+          ],
+          [
+            "NOT",
+            {
+              "plist": [
+                [
+                  "tag",
+                  "TET"
+                ]
+              ]
+            }
+          ],
+          [
+            "NOT",
+            {
+              "plist": [
+                [
+                  "tag",
+                  "SLE"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "cossack_ideas",
@@ -33350,9 +35102,14 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "has_reform",
+            "cossacks_reform"
+          ]
+        ]
+      }
     },
     {
       "name": "berber_ideas",
@@ -33455,9 +35212,14 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "culture_group",
+            "maghrebi"
+          ]
+        ]
+      }
     },
     {
       "name": "rajput_ideas",
@@ -33545,9 +35307,36 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "OR",
+            {
+              "plist": [
+                [
+                  "primary_culture",
+                  "rajput"
+                ],
+                [
+                  "primary_culture",
+                  "malvi"
+                ]
+              ]
+            }
+          ],
+          [
+            "NOT",
+            {
+              "plist": [
+                [
+                  "religion_group",
+                  "muslim"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "telugu_ideas",
@@ -33638,9 +35427,14 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "primary_culture",
+            "telegu"
+          ]
+        ]
+      }
     },
     {
       "name": "dravidian_ideas",
@@ -33731,9 +35525,29 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "culture_group",
+            "dravidian"
+          ],
+          [
+            "NOT",
+            {
+              "plist": [
+                [
+                  "primary_culture",
+                  "malayalam"
+                ]
+              ]
+            }
+          ],
+          [
+            "religion",
+            "hinduism"
+          ]
+        ]
+      }
     },
     {
       "name": "bengali_ideas",
@@ -33821,9 +35635,29 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "OR",
+            {
+              "plist": [
+                [
+                  "primary_culture",
+                  "bengali"
+                ],
+                [
+                  "TAG",
+                  "KMT"
+                ],
+                [
+                  "TAG",
+                  "KAC"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "gujarati_ideas",
@@ -33914,9 +35748,29 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "OR",
+            {
+              "plist": [
+                [
+                  "primary_culture",
+                  "gujarati"
+                ],
+                [
+                  "primary_culture",
+                  "saurashtri"
+                ],
+                [
+                  "tag",
+                  "BGA"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "indian_muslim_ideas",
@@ -34007,9 +35861,44 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "religion_group",
+            "muslim"
+          ],
+          [
+            "OR",
+            {
+              "plist": [
+                [
+                  "culture_group",
+                  "hindusthani"
+                ],
+                [
+                  "culture_group",
+                  "eastern_aryan"
+                ],
+                [
+                  "culture_group",
+                  "western_aryan"
+                ]
+              ]
+            }
+          ],
+          [
+            "NOT",
+            {
+              "plist": [
+                [
+                  "primary_culture",
+                  "marathi"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "mindanao_ideas",
@@ -34104,9 +35993,25 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "OR",
+            {
+              "plist": [
+                [
+                  "tag",
+                  "MGD"
+                ],
+                [
+                  "tag",
+                  "LNO"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "horde_ideas",
@@ -34194,9 +36099,14 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "has_reform",
+            "steppe_horde"
+          ]
+        ]
+      }
     },
     {
       "name": "theocracy_ideas",
@@ -34295,9 +36205,18 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "government",
+            "theocracy"
+          ],
+          [
+            "religion_group",
+            "christian"
+          ]
+        ]
+      }
     },
     {
       "name": "anatolian_beyliks_ideas",
@@ -34389,9 +36308,14 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "primary_culture",
+            "turkish"
+          ]
+        ]
+      }
     },
     {
       "name": "daimyo_ideas",
@@ -34482,9 +36406,29 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "OR",
+            {
+              "plist": [
+                [
+                  "has_reform",
+                  "daimyo"
+                ],
+                [
+                  "has_reform",
+                  "indep_daimyo"
+                ],
+                [
+                  "has_reform",
+                  "shogunate"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "german_ideas",
@@ -34579,9 +36523,14 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "culture_group",
+            "germanic"
+          ]
+        ]
+      }
     },
     {
       "name": "malayan_ideas",
@@ -34676,9 +36625,29 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "religion_group",
+            "muslim"
+          ],
+          [
+            "culture_group",
+            "malay"
+          ],
+          [
+            "NOT",
+            {
+              "plist": [
+                [
+                  "primary_culture",
+                  "sumatran"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "arabian_ideas",
@@ -34773,9 +36742,25 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "culture_group",
+            "turko_semitic"
+          ],
+          [
+            "NOT",
+            {
+              "plist": [
+                [
+                  "primary_culture",
+                  "turkish"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "latin_ideas",
@@ -34882,9 +36867,25 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "culture_group",
+            "latin"
+          ],
+          [
+            "capital_scope",
+            {
+              "plist": [
+                [
+                  "region",
+                  "italy_region"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "native_ideas",
@@ -34975,9 +36976,69 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "government",
+            "native"
+          ],
+          [
+            "NOT",
+            {
+              "plist": [
+                [
+                  "primary_culture",
+                  "tupinamba"
+                ]
+              ]
+            }
+          ],
+          [
+            "NOT",
+            {
+              "plist": [
+                [
+                  "primary_culture",
+                  "guajiro"
+                ]
+              ]
+            }
+          ],
+          [
+            "NOT",
+            {
+              "plist": [
+                [
+                  "TAG",
+                  "SAL"
+                ]
+              ]
+            }
+          ],
+          [
+            "NOT",
+            {
+              "plist": [
+                [
+                  "TAG",
+                  "HDA"
+                ]
+              ]
+            }
+          ],
+          [
+            "NOT",
+            {
+              "plist": [
+                [
+                  "TAG",
+                  "CNK"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "central_indic_ideas",
@@ -35072,9 +37133,14 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "primary_culture",
+            "gondi"
+          ]
+        ]
+      }
     },
     {
       "name": "swahili_ideas",
@@ -35173,9 +37239,14 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "primary_culture",
+            "swahili"
+          ]
+        ]
+      }
     },
     {
       "name": "sumatran_ideas",
@@ -35270,9 +37341,18 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "primary_culture",
+            "sumatran"
+          ],
+          [
+            "religion_group",
+            "muslim"
+          ]
+        ]
+      }
     },
     {
       "name": "siberian_ideas",
@@ -35367,9 +37447,14 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "has_reform",
+            "siberian_tribe"
+          ]
+        ]
+      }
     },
     {
       "name": "mesoamerican_ideas",
@@ -35464,9 +37549,29 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "OR",
+            {
+              "plist": [
+                [
+                  "religion",
+                  "nahuatl"
+                ],
+                [
+                  "tag",
+                  "GAM"
+                ],
+                [
+                  "tag",
+                  "CCM"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "TIB_ideas",
@@ -35561,9 +37666,18 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "primary_culture",
+            "tibetan"
+          ],
+          [
+            "religion",
+            "vajrayana"
+          ]
+        ]
+      }
     },
     {
       "name": "west_african_ideas",
@@ -35658,9 +37772,29 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "technology_group",
+            "sub_saharan"
+          ],
+          [
+            "NOT",
+            {
+              "plist": [
+                [
+                  "tag",
+                  "LOA"
+                ],
+                [
+                  "tag",
+                  "NDO"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "andean_ideas",
@@ -35751,9 +37885,25 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "technology_group",
+            "andean"
+          ],
+          [
+            "NOT",
+            {
+              "plist": [
+                [
+                  "primary_culture",
+                  "aimara"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "aymaran_ideas",
@@ -35844,9 +37994,14 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "primary_culture",
+            "aimara"
+          ]
+        ]
+      }
     },
     {
       "name": "tupi_ideas",
@@ -35937,9 +38092,14 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "primary_culture",
+            "tupinamba"
+          ]
+        ]
+      }
     },
     {
       "name": "caucasus_ideas",
@@ -36034,9 +38194,25 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "OR",
+            {
+              "plist": [
+                [
+                  "culture_group",
+                  "caucasian"
+                ],
+                [
+                  "primary_culture",
+                  "azerbaijani"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "ruthenian_ideas",
@@ -36131,9 +38307,25 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "OR",
+            {
+              "plist": [
+                [
+                  "primary_culture",
+                  "ruthenian"
+                ],
+                [
+                  "primary_culture",
+                  "byelorussian"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "pacific_northwest_ideas",
@@ -36224,9 +38416,29 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "OR",
+            {
+              "plist": [
+                [
+                  "TAG",
+                  "SAL"
+                ],
+                [
+                  "TAG",
+                  "HDA"
+                ],
+                [
+                  "TAG",
+                  "CNK"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "guajiro_ideas",
@@ -36321,9 +38533,14 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "primary_culture",
+            "guajiro"
+          ]
+        ]
+      }
     },
     {
       "name": "shan_ideas",
@@ -36418,9 +38635,14 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "primary_culture",
+            "shan"
+          ]
+        ]
+      }
     },
     {
       "name": "chinese_ideas",
@@ -36511,9 +38733,25 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "OR",
+            {
+              "plist": [
+                [
+                  "culture_group",
+                  "east_asian"
+                ],
+                [
+                  "tag",
+                  "CGS"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "vindhyan_ideas",
@@ -36604,9 +38842,51 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "OR",
+            {
+              "plist": [
+                [
+                  "tag",
+                  "BND"
+                ],
+                [
+                  "tag",
+                  "BGL"
+                ],
+                [
+                  "tag",
+                  "PAN"
+                ],
+                [
+                  "AND",
+                  {
+                    "plist": [
+                      [
+                        "tag",
+                        "GWA"
+                      ],
+                      [
+                        "NOT",
+                        {
+                          "plist": [
+                            [
+                              "primary_culture",
+                              "marathi"
+                            ]
+                          ]
+                        }
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "kurdish_ideas",
@@ -36697,9 +38977,14 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "primary_culture",
+            "kurdish"
+          ]
+        ]
+      }
     },
     {
       "name": "laotian_ideas",
@@ -36787,9 +39072,14 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "primary_culture",
+            "lao"
+          ]
+        ]
+      }
     },
     {
       "name": "somali_ideas",
@@ -36880,9 +39170,29 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "OR",
+            {
+              "plist": [
+                [
+                  "primary_culture",
+                  "somali"
+                ],
+                [
+                  "primary_culture",
+                  "harari"
+                ],
+                [
+                  "primary_culture",
+                  "afar"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "sulawesi_ideas",
@@ -36973,9 +39283,29 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "OR",
+            {
+              "plist": [
+                [
+                  "tag",
+                  "MKS"
+                ],
+                [
+                  "tag",
+                  "BTN"
+                ],
+                [
+                  "tag",
+                  "LUW"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "mayan_ideas",
@@ -37066,9 +39396,14 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "religion",
+            "mesoamerican_religion"
+          ]
+        ]
+      }
     },
     {
       "name": "moluccan_ideas",
@@ -37159,9 +39494,14 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "primary_culture",
+            "moluccan"
+          ]
+        ]
+      }
     },
     {
       "name": "greek_ideas",
@@ -37256,9 +39596,14 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "primary_culture",
+            "greek"
+          ]
+        ]
+      }
     },
     {
       "name": "nubian_ideas",
@@ -37349,9 +39694,25 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "OR",
+            {
+              "plist": [
+                [
+                  "primary_culture",
+                  "nubian"
+                ],
+                [
+                  "primary_culture",
+                  "beja"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "french_culture_ideas",
@@ -37442,9 +39803,14 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "culture_group",
+            "french"
+          ]
+        ]
+      }
     },
     {
       "name": "african_great_lakes_ideas",
@@ -37535,9 +39901,14 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "culture_group",
+            "great_lakes_group"
+          ]
+        ]
+      }
     },
     {
       "name": "malagasy_ideas",
@@ -37625,9 +39996,14 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "primary_culture",
+            "madagasque"
+          ]
+        ]
+      }
     },
     {
       "name": "zambezi_ideas",
@@ -37719,9 +40095,25 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "OR",
+            {
+              "plist": [
+                [
+                  "primary_culture",
+                  "nyasa"
+                ],
+                [
+                  "primary_culture",
+                  "makua"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "congolese_minor_ideas",
@@ -37812,9 +40204,14 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "culture_group",
+            "kongo_group"
+          ]
+        ]
+      }
     },
     {
       "name": "caspian_ideas",
@@ -37905,9 +40302,14 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "primary_culture",
+            "mazandarani"
+          ]
+        ]
+      }
     },
     {
       "name": "luzon_ideas",
@@ -38002,9 +40404,29 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "OR",
+            {
+              "plist": [
+                [
+                  "tag",
+                  "PGS"
+                ],
+                [
+                  "tag",
+                  "TDO"
+                ],
+                [
+                  "tag",
+                  "MNA"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "highland_scottish_ideas",
@@ -38099,9 +40521,14 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "primary_culture",
+            "highland_scottish"
+          ]
+        ]
+      }
     },
     {
       "name": "deccani_muslim_ideas",
@@ -38192,9 +40619,29 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "religion_group",
+            "muslim"
+          ],
+          [
+            "OR",
+            {
+              "plist": [
+                [
+                  "primary_culture",
+                  "marathi"
+                ],
+                [
+                  "culture_group",
+                  "dravidian"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "nepalese_minor_ideas",
@@ -38285,9 +40732,25 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "OR",
+            {
+              "plist": [
+                [
+                  "primary_culture",
+                  "pahari"
+                ],
+                [
+                  "primary_culture",
+                  "nepali"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "garjati_ideas",
@@ -38375,9 +40838,25 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "OR",
+            {
+              "plist": [
+                [
+                  "primary_culture",
+                  "jharkhandi"
+                ],
+                [
+                  "primary_culture",
+                  "garjati"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
     },
     {
       "name": "malabari_ideas",
@@ -38465,9 +40944,14 @@
           ]
         ]
       },
-      "trigger": [
-        "special"
-      ]
+      "trigger": {
+        "plist": [
+          [
+            "primary_culture",
+            "malayalam"
+          ]
+        ]
+      }
     },
     {
       "name": "default_ideas",
@@ -38558,12 +41042,18 @@
           ]
         ]
       },
-      "trigger": [
-        "default"
-      ]
+      "trigger": null
     }
   ],
   "loc": {
+    "tag": "Country Tag",
+    "TAG": "Country Tag",
+    "primary_culture": "Primary Culture",
+    "culture_group": "Culture Group",
+    "has_reform": "Has Government Reform",
+    "religion_group": "Religion Group",
+    "religion": "Religion",
+    "government": "Government",
     "aristocracy_ideas": "Aristocratic Ideas",
     "bonus": "bonus",
     "leader_siege": "Leader Siege",
@@ -38928,6 +41418,9 @@
     "salamanca_scholars": "School of Salamanca",
     "nueva_planta": "Nueva Planta",
     "NED_ideas": "Dutch Ideas",
+    "OR": "or ",
+    "NED": "Netherlands",
+    "HOL": "Holland",
     "amsterdam_wisselbank": "Found the Amsterdam Wisselbank",
     "dutch_trading_spirit": "Dutch Trading Spirit",
     "polders": "Polders",
@@ -38979,6 +41472,8 @@
     "justify_trade_conflict_cost": "Justify Trade Conflict Cost",
     "provveditori_ai_beni_inculti": "Found the provveditori ai beni inculti",
     "PRU_ideas": "Prussian Ideas",
+    "PRU": "Prussia",
+    "BRA": "Brandenburg",
     "kammergericht": "Found the Kammergericht",
     "divided_estates": "Divide the Estates",
     "army_professionalism": "Army Professionalism",
@@ -38996,6 +41491,8 @@
     "land_before_faith": "Land Before Faith",
     "open_up_the_guilds": "Open up the Guilds",
     "POL_ideas": "Polish Ideas",
+    "POL": "Poland",
+    "PLC": "Commonwealth",
     "folwark_system": "Promote the Folwark System",
     "nihil_novi": "Nihil Novi",
     "peichota_wybraniecka": "Piechota Wybraniecka",
@@ -39005,6 +41502,11 @@
     "foreign_section": "Found the Foreign section",
     "focus_on_field_defences": "Focus on Field Defenses",
     "HAB_ideas": "Austrian Ideas",
+    "HAB": "Austria",
+    "AND": "and ",
+    "STY": "Styria",
+    "dynasty": "dynasty",
+    "von Habsburg": "von Habsburg",
     "imperial_ambitions": "Imperial Ambition",
     "imperial_authority": "Imperial Authority",
     "military_border": "Military Frontier",
@@ -39233,6 +41735,11 @@
     "heir_to_the_empire": "Heir to the Empire",
     "path_to_citizenship": "The Path to Citizenship",
     "MCH_ideas": "Manchu Ideas",
+    "MJZ": "Jianzhou",
+    "MHX": "Haixi",
+    "MYR": "Yeren",
+    "MCH": "Manchu",
+    "QNG": "Qing",
     "united_three_jurchens": "United Three Jurchens",
     "the_manchu_alphabet": "Manchu Alphabet",
     "manchu_eight_banners": "The Eight Banners",
@@ -39270,6 +41777,9 @@
     "eth_expansionist_policy": "Expansionist Policy",
     "eth_reformed_armies": "Reformed Armies",
     "DAI_ideas": "Dai Viet Ideas",
+    "DAI": "Dai Viet",
+    "TOK": "Tonkin",
+    "ANN": "Annam",
     "the_great_proclamation": "The Great Proclamation",
     "confucian_revival": "Confucian Revival",
     "autonomous_villages": "Autonomous Villages",
@@ -39278,6 +41788,8 @@
     "thuan_thien": "Thuan Thiên",
     "literary_reform": "Literary Reform",
     "SAV_ideas": "Savoyard Ideas",
+    "SAV": "Savoy",
+    "SPI": "Sardinia-Piedmont",
     "repel_the_french": "Repel the French",
     "the_shroud_of_turin": "The Shroud of Turin",
     "sav_mercenary_tradition": "Mercenary Tradition",
@@ -39304,6 +41816,10 @@
     "statutes_of_lithuania": "Statutes of Lithuania",
     "lithuanian_renaissance": "Lithuanian Renaissance",
     "MAR_ideas": "Maratha Ideas",
+    "MAR": "Marathas",
+    "BDA": "Baroda",
+    "GWA": "Gwalior",
+    "marathi": "Marathi",
     "tradition_of_military_service": "Tradition of Military Service",
     "forts_of_maharashtra": "Forts of Maharashtra",
     "peasant_soldiers": "Peasant Soldiers",
@@ -39314,6 +41830,8 @@
     "reform_the_bureaucracy": "Reform The Bureaucracy",
     "expand_maratha_navy": "Expand Maratha Navy",
     "TAU_ideas": "Burmese Ideas",
+    "TAU": "Taungu",
+    "BPR": "Prome",
     "mandala_system": "Mandala System",
     "tau_elephant_battles": "Elephant Warfare",
     "nat_worship": "Nat Worship",
@@ -39405,6 +41923,8 @@
     "ahom_land_survey": "Land Survey",
     "ahom_diplomacy": "Ahom Diplomacy",
     "TUS_ideas": "Tuscan Ideas",
+    "TUS": "Tuscany",
+    "LAN": "Florence",
     "birthplace_of_the_renaissance": "Birthplace of the Renaissance",
     "tuscan_condottieri": "Condottieri",
     "tuscan_banking": "Tuscan Banking",
@@ -39460,6 +41980,8 @@
     "unite_the_tribes": "Unite the Tribes",
     "enforce_tawhid": "Enforce Tawhid",
     "HED_ideas": "Hejazi Ideas",
+    "HED": "Hejaz",
+    "MDA": "Medina",
     "custodian_of_the_two_holy_cities": "Custodian of the Two Holy Cities",
     "hed_red_sea_trade": "Red Sea Trade",
     "sharifs_of_mecca": "Sharifs",
@@ -39489,6 +42011,9 @@
     "scourge_of_the_corsairs": "Scourge of the Corsairs",
     "crusader_tradition": "Crusader Tradition",
     "KON_ideas": "Kongo Ideas",
+    "KON": "Kongo",
+    "LOA": "Loango",
+    "NDO": "Ndongo",
     "kongolese_tax_exchange": "Kongolese Tax Exchange",
     "election_of_manikongos": "Election of Manikongos",
     "imported_european_weaponry": "Imported European Weaponry",
@@ -39543,6 +42068,9 @@
     "mountainous_isolation": "Mountainous Isolation",
     "cherokee_emperor": "Cherokee Emperor",
     "PUE_ideas": "Pueblo Ideas",
+    "PUE": "Pueblo",
+    "KER": "Keres",
+    "ZNI": "Zuni",
     "ancient_pueblo_legacy": "Ancient Pueblo Legacy",
     "adobe_architecture": "Adobe Architecture",
     "mesa_settlements": "Mesa Settlements",
@@ -39605,6 +42133,8 @@
     "terminus_of_the_silk_road": "Terminus of the Silk Road",
     "greek_scholars_abroad": "Greek Scholars Abroad",
     "GEO_ideas": "Georgian Ideas",
+    "GEO": "Georgia",
+    "IME": "Imereti",
     "bagrationi_dynasty": "Bagrationi Dynasty",
     "georgian_isolation": "Georgian Isolation",
     "geo_legacy_of_saint_nino": "Legacy of Saint Nino",
@@ -39613,6 +42143,8 @@
     "geo_dasturlamali": "Dasturlamali",
     "georgian_embassies": "Georgian Embassies",
     "javan_ideas": "Javan Ideas",
+    "MAJ": "Majapahit",
+    "SUN": "Sunda",
     "candi_shrines": "Candi Shrines",
     "indianization": "Indianization",
     "dharmasastra": "Dharmashastra",
@@ -39802,6 +42334,7 @@
     "vlach_shepherds": "Vlachs",
     "moldavian_trade": "Moldavian Trade",
     "AIR_ideas": "Air Ideas",
+    "AIR": "Air",
     "taghlamt": "The Taghlamt",
     "cross_of_agades": "Cross of Agades",
     "legacy_of_tin_hinan": "Legacy of Tin-Hinan",
@@ -39810,6 +42343,8 @@
     "nomadic_traditions": "Nomadic Traditions",
     "ineslemen_teachings": "Ineslemen Teachings",
     "mossi_ideas": "Mossi Ideas",
+    "MSI": "Mossi",
+    "YAT": "Yatenga",
     "riale_and_yennenga": "Rialé and Yennenga",
     "mossi_cavalry_raids": "Cavalry Raids",
     "nyonnyonse_vassals": "Nyonnyonse Vassals",
@@ -39819,6 +42354,9 @@
     "friday_court": "The Friday Court",
     "fulani_jihad_ideas": "Fulani Jihad Ideas",
     "army_tradition_from_battle": "Army Tradition From Battle",
+    "SOK": "Sokoto",
+    "has_country_flag": "has_country_flag",
+    "fulani_jihad_state": "fulani_jihad_state",
     "wandering_scholars": "Wandering Scholars",
     "unrighteous_kings": "Unrighteous Kings",
     "fulani_jihads": "Fulani Jihads",
@@ -39827,6 +42365,7 @@
     "community_of_the_faithful": "Community of the Faithful",
     "caliph_in_africa": "The Caliph in Africa",
     "TAR_ideas": "Tarascan Ideas",
+    "TAR": "Tarascan",
     "copperworking": "Copperworking",
     "no_mercy": "No Mercy",
     "merchant_officials": "Merchant-Officials",
@@ -39933,6 +42472,8 @@
     "mpc_idea_6": "Peace Parliaments",
     "mpc_idea_7": "Ruxafe",
     "INC_ideas": "Incan Ideas",
+    "INC": "Inca",
+    "CSU": "Cusco",
     "machu_picchu": "Machu Picchu",
     "mitma": "Increased Obligations",
     "quipu": "Quipu",
@@ -40014,6 +42555,8 @@
     "ge_establish_trade": "Open Trade Routes",
     "ge_unite_the_tribes": "Unite The Tribes",
     "POM_ideas": "Pomeranian Ideas",
+    "POM": "Pomerania",
+    "pommeranian": "Pomeranian",
     "pom_idea_1": "Legacy of Pirates",
     "pom_idea_2": "Pomeranian Merchants",
     "pom_idea_3": "Northern Ports",
@@ -40031,6 +42574,8 @@
     "kaz_idea_6": "Settle Down",
     "kaz_idea_7": "End Western Domination",
     "ARM_ideas": "Armenian Ideas",
+    "ARM": "Armenia",
+    "MLK": "Kharabakh",
     "apostolic_church": "Apostolic Church",
     "land_reclamation": "Land Reclamation",
     "border_nation": "Border Nation",
@@ -40048,6 +42593,10 @@
     "prifysgolion_cymru": "Prifysgolion Cymru",
     "welsh_church": "Welsh Church",
     "hausa_ideas": "Hausan Ideas",
+    "KTS": "Katsina",
+    "KAN": "Kano",
+    "ZZZ": "Zazzau",
+    "HAU": "Hausa",
     "heirs_of_bayajida": "Heirs of Bayajida",
     "regnal_chronicles": "Regnal Chronicles",
     "sarakunan_babba": "Sarakunan Babba",
@@ -40101,6 +42650,8 @@
     "ichan_qala": "Ichan Qal'a",
     "great_powers_diplomacy": "Great Power Diplomacy",
     "BAH_ideas": "Bahmani Ideas",
+    "BAH": "Bahmanis",
+    "muslim": "Muslim",
     "gharbians": "Gharbians",
     "legacy_of_gisu_daraz": "Legacy of Gisu Daraz",
     "dakani_language": "Dakani Language",
@@ -40118,6 +42669,7 @@
     "siddi_konkani_trade": "Konkan Trade",
     "siddi_expansion_of_navy": "Expansion of the Navy",
     "JNP_ideas": "Jaunpuri Ideas",
+    "JNP": "Jaunpur",
     "jnp_purbias": "Purbias",
     "shiraz_e_hind": "Shiraz-i Hind",
     "jnp_sants_and_sufis": "Sants and Sufis",
@@ -40135,6 +42687,8 @@
     "berenberg_bank": "Berenberg Bank",
     "elbe_shipyards": "Shipyards of the Elbe",
     "jerusalem_ideas": "Jerusalem Ideas",
+    "KOJ": "Jerusalem",
+    "christian": "Christian",
     "crown_of_thorns": "Crown of Thorns",
     "latin_patriarch": "Latin Patriarch",
     "frontier_state": "Frontier State",
@@ -40216,6 +42770,8 @@
     "franconian_wine": "Franconian Wine",
     "baroque_artists": "Baroque Artists",
     "CEY_ideas": "Sinhalese Ideas",
+    "CEY": "Kotte",
+    "KND": "Kandy",
     "gabadagam": "Gabadagam",
     "sinhalese_sandesas": "Sinhalese Sandesas",
     "pearl_of_the_indian_ocean": "Pearl of the Indian Ocean",
@@ -40260,6 +42816,8 @@
     "ben_adoption_of_benin_customs": "Adoption of Benin Customs",
     "ben_regulation_of_trade": "Regulation of Trade",
     "BRE_ideas": "Bremen Ideas",
+    "BRE": "Bremen",
+    "VER": "Verden",
     "lex_saxonum": "Lex Saxonum",
     "memories_of_verden": "Memories of Verden",
     "deep_pockets": "Deep Pockets",
@@ -40331,6 +42889,9 @@
     "bti_lost_tribe": "Lost Tribe of Beta Israel",
     "bti_haskalah": "Haskalah",
     "CAT_ideas": "Catalan Ideas",
+    "CAT": "Catalonia",
+    "VAL": "Valencia",
+    "MJO": "Majorca",
     "cat_consulate_of_the_sea": "Consulate of the Sea",
     "cat_consell_de_cent": "Consell de Cent",
     "cat_catalan_constitutions": "Constitution of Catalonia",
@@ -41196,6 +43757,8 @@
     "mhr_book_of_navigation": "Book of Navigation",
     "mhr_rein_in_the_chiefs": "Rein in the Chiefs",
     "YEM_ideas": "Yemeni Ideas",
+    "YEM": "Yemen",
+    "ADE": "Aden",
     "yem_al_yaman": "Al-Yaman, Felicitous Arabia",
     "coffea_arabica": "Coffea Arabica",
     "yem_control_of_the_red_sea": "Control of the Red Sea",
@@ -41239,6 +43802,8 @@
     "rum_sultan_al_muazzam": "al-Sultan al-Muazzam",
     "rum_protector_of_dar_al_islam": "Protector of Dar al-Islam",
     "ARL_ideas": "Ardabili Ideas",
+    "ARL": "Ardabil",
+    "shiite": "Shia",
     "arl_safavid_order": "The Safavid Order",
     "arl_qizilbash": "The Qizilbash",
     "arl_shiite_leadership": "Leader of all Shiites",
@@ -41793,6 +44358,7 @@
     "adu_expeditionary_sentiment": "Expeditionary Sentiment",
     "adu_al_awasim": "Al Awasim",
     "client_ideas": "Client State Ideas",
+    "is_client_nation": "is_client_nation",
     "client_self_rule": "Self Rule",
     "foreign_tax_collectors": "Foreign Sheriffs",
     "fortified_borders": "Fortified Border",
@@ -41801,6 +44367,7 @@
     "mercenary_recruitment_center": "Recruitment Centers",
     "foreign_advisors_client": "Foreign Advisors",
     "colonial_ideas": "Colonial Ideas",
+    "is_colonial_nation": "is_colonial_nation",
     "founding_fathers": "Founding Fathers",
     "continental_trade": "Continental Trade",
     "manufacturing_center": "Manufacturing Center of an Empire",
@@ -41809,6 +44376,10 @@
     "new_frontiers": "New Frontiers",
     "liberty_heroes": "Liberty Heroes",
     "barbary_pirate_ideas": "Barbary Corsair Ideas",
+    "pirate_republic_reform": "Pirate Republic",
+    "maghrebi": "Maghrebi",
+    "TET": "Tétouan",
+    "SLE": "Salé",
     "barbary_slave_trade": "The Barbary Slave Trade",
     "galley_slaves": "Galley Slaves",
     "vengeful_refugees": "Vengeful Refugees",
@@ -41820,6 +44391,7 @@
     "pr_captains_influence": "Pr Captains Influence",
     "possible_mil_policy": "Possible Mil Policy",
     "pirate_ideas": "Piratical Ideas",
+    "NOT": "NOT",
     "pirates_religious_apathy": "Religious Apathy",
     "pirates_plunder": "Plunder!",
     "pirates_bucanneers_ideas": "Buccaneers",
@@ -41828,6 +44400,7 @@
     "pirate_bays": "Pirate Bays",
     "pirate_life_of_liberty": "Life of Liberty",
     "cossack_ideas": "Cossack Ideas",
+    "cossacks_reform": "Sich Rada",
     "cossacks_escaped_serfs": "Escaped Serfs",
     "cossacks_hetmanate": "Cossack Hetmanate",
     "cossacks_insults": "Scornful Insults",
@@ -41840,6 +44413,8 @@
     "tuareg_cavalry": "Tuareg Cavalry",
     "brothers_barbarossa": "The Brothers Barbarossa",
     "rajput_ideas": "Rajput Ideas",
+    "rajput": "Rajasthani",
+    "malvi": "Malvi",
     "clan_loyalties": "Clan Loyalties",
     "fortifying_rajputana": "Fortifying Rajputana",
     "rajput_resistance": "Rajput Resistance",
@@ -41847,6 +44422,7 @@
     "rajput_martial_ethos": "Martial Ethos",
     "marwari_trading_houses": "Rajput Trading Houses",
     "telugu_ideas": "Telugu Ideas",
+    "telegu": "Telugu",
     "yor_patronize_telugu_literature": "Patronize Telugu Literature",
     "yor_telugu_warrior_aristocrats": "Telugu Warrior Aristocrats",
     "yor_kakatiya_legacy": "Kakatiya Legacy",
@@ -41855,6 +44431,9 @@
     "yor_diamond_mines_of_kollur": "Diamond Mines of Kollur",
     "yor_encourage_coromandel_trade": "Encourage Coromandel Trade",
     "dravidian_ideas": "South Indian Ideas",
+    "dravidian": "Dravidian",
+    "malayalam": "Malayalam",
+    "hinduism": "Hindu",
     "merchants_of_southern_india": "Merchants of Southern India",
     "water_tanks_and_canals": "Water Tanks and Canals",
     "polygar_system": "Polygar System",
@@ -41863,6 +44442,9 @@
     "south_indian_literature": "South Indian Literature",
     "merchant_capitalists": "Merchant Capitalists",
     "bengali_ideas": "Bengali Ideas",
+    "bengali": "Bengali",
+    "KMT": "Koch",
+    "KAC": "Kachar",
     "hindu_sufi_syncretism": "Bengali Hindu-Sufi Syncretism",
     "ganges_brahmaputra_confluence": "Ganges-Brahmaputra Confluence",
     "rice_fields": "Bengal's Endlessly Productive Rice Fields",
@@ -41870,6 +44452,9 @@
     "opium_fields": "Opium Fields of Bengal",
     "bengali_renaissance": "The Bengal Renaissance",
     "gujarati_ideas": "Gujarati Princedom Ideas",
+    "gujarati": "Gujarati",
+    "saurashtri": "Saurashtri",
+    "BGA": "Baglana",
     "guj_kathiawari_horses": "Kathiawari Horses",
     "guj_trading_outposts": "Establish New Trading Ports",
     "guj_jain_bankers": "Safe Harbor for Jain Bankers",
@@ -41878,6 +44463,9 @@
     "guj_ashapura_mata": "Ashapura Mata",
     "guj_african_trade": "Extend Trade Routes to Africa",
     "indian_muslim_ideas": "Indian Sultanate Ideas",
+    "hindusthani": "Hindustani",
+    "eastern_aryan": "Eastern Aryan",
+    "western_aryan": "Western Aryan",
     "tolerate_idol_worshippers_i": "Tolerate the Idol Worshipers",
     "persian_court": "Court Persian",
     "comphrehensive_land_survey": "Comprehensive Land Survey",
@@ -41886,6 +44474,8 @@
     "high_court_culture": "High Court Culture",
     "sultanate_bureaucracy": "Sultanate Bureaucracy",
     "mindanao_ideas": "Mindanao Ideas",
+    "MGD": "Maguindanao",
+    "LNO": "Lanao",
     "mindanao_an_islamicized_barangay": "An Islamicized Barangay",
     "mindanao_unite_the_datus": "Unite the Datus",
     "mindanao_protect_the_riches_of_mindanao": "Protect the Riches of Mindanao",
@@ -41894,6 +44484,7 @@
     "mindanao_guerilla_warfare": "Guerrilla Warfare",
     "mindanao_pirates_of_mindanao": "Pirates of Mindanao",
     "horde_ideas": "Horde Ideas",
+    "steppe_horde": "Steppe Nomads",
     "life_of_steppe_warrior": "The Life of a Steppe Warrior",
     "traditions_of_the_great_khan": "Traditions of the Great Khan",
     "horse_supplies": "Horse Supplies",
@@ -41901,6 +44492,7 @@
     "tradition_of_conquest": "The Tradition of Conquest",
     "glory_of_conquest": "The Glory of Conquest",
     "theocracy_ideas": "Divine Ideas",
+    "theocracy": "theocracy",
     "holy_order": "Holy Order",
     "church_administration": "Church Administration",
     "true_defender_of_the_faith": "True Defender of the Faith",
@@ -41909,6 +44501,7 @@
     "turn_the_other_cheek": "Turn the Other Cheek",
     "render_unto_ceasar": "Render unto Caesar",
     "anatolian_beyliks_ideas": "Anatolian Ideas",
+    "turkish": "Turkish",
     "travelling_ozan": "Traveling Ozan",
     "seljuq_marches": "Seljuq Marches",
     "akinci_cavalry": "Akîncî Cavalry",
@@ -41916,6 +44509,9 @@
     "anatolian_architecture": "Anatolian Architecture",
     "legacy_seljuqs_empire": "Legacy of the Great Seljuq Empire",
     "daimyo_ideas": "Daimyo Ideas",
+    "daimyo": "Daimyo",
+    "indep_daimyo": "Independent Daimyo",
+    "shogunate": "Shogunate",
     "bushido": "Bushido",
     "bun_and_bu": "The Bun and the Bu",
     "honor_ancestors": "Honor the Ancestors",
@@ -41924,6 +44520,7 @@
     "daimyo_idea": "Armies of the Daimyo",
     "honor_unto_death": "Honor Unto Death",
     "german_ideas": "German Ideas",
+    "germanic": "Germanic",
     "zunft": "Zunft",
     "fruhlings_und_herbstmesse": "Frühlings- und Herbstmesse",
     "reichskreis": "Reichskreis",
@@ -41933,6 +44530,8 @@
     "residenzstadt": "Residenzstadt",
     "malayan_ideas": "Malayan Sultanate Ideas",
     "naval_tradition_from_battle": "Naval Tradition From Battle",
+    "malay": "Malay",
+    "sumatran": "Sumatran",
     "indian_ocean_trade": "Indian Ocean Trade",
     "sufi_legacy": "Sufi Legacy",
     "mal_spice_islands": "Spice Islands",
@@ -41941,6 +44540,7 @@
     "heirs_of_pasai": "Heirs of Pasai",
     "settle_the_islands": "Settle the Islands",
     "arabian_ideas": "Arabian Ideas",
+    "turko_semitic": "Levantine",
     "arab_indian_ocean_trade": "Indian Ocean Trade",
     "arabian_horses": "Arabian Horses",
     "land_of_the_prophet": "Land of the Prophet",
@@ -41949,6 +44549,10 @@
     "arab_clan_loyalties": "Clan Loyalties",
     "arabia": "Arabia",
     "latin_ideas": "Italian Ideas",
+    "latin": "Latin",
+    "capital_scope": "capital_scope",
+    "region": "region",
+    "italy_region": "Italy",
     "italian_renaissance": "Italian Renaissance",
     "italian_condottieri": "Italian Condottieri",
     "italian_aristocracy": "Italian Aristocracy",
@@ -41957,6 +44561,12 @@
     "italian_diplomacy": "Italian Diplomacy",
     "commedia_del_arte": "Commedia dell'arte",
     "native_ideas": "Native Ideas",
+    "native": "Native American Tribe",
+    "tupinamba": "Tupinamba",
+    "guajiro": "Lokono",
+    "SAL": "Salish",
+    "HDA": "Haida",
+    "CNK": "Chinook",
     "counting_coups": "Counting Coups",
     "storytelling_tradition": "Storytelling Tradition",
     "clan_mothers": "Clan Mothers",
@@ -41965,6 +44575,7 @@
     "war_and_peace_chiefs": "War and Peace Chiefs",
     "great_winter_hunts": "Great Winter Hunts",
     "central_indic_ideas": "Gond Ideas",
+    "gondi": "Gondi",
     "securing_defenses_central_indic": "Securing Our Defenses",
     "tribal_religion_central_indic": "Tribal Religion",
     "tigers_and_elephants_central_indic": "Tigers and Elephants",
@@ -41973,6 +44584,7 @@
     "ancient_roots_central_indic": "Ancient Roots",
     "formalize_relations_with_cheifs_central_indic": "Formalize Relations with the Chiefs",
     "swahili_ideas": "Swahili Ideas",
+    "swahili": "Swahili",
     "swa_indian_ocean_trade": "Indian Ocean Trade",
     "monsoon_season": "Monsoon Season",
     "great_mosque_of_kilwa": "Great Mosque of Kilwa",
@@ -41989,6 +44601,7 @@
     "legacy_of_srivijaya": "Legacy of Srivijaya",
     "rule_of_the_sea": "Rule of The Sea",
     "siberian_ideas": "Siberian Ideas",
+    "siberian_tribe": "Siberian Native Council",
     "siberian_hunt_north": "Hunters of the North",
     "siberian_fur_trade": "Siberian Fur Trade",
     "siberian_enslave_captives": "Enslave the Captives",
@@ -41997,6 +44610,9 @@
     "siberian_raids": "Successful Raids",
     "siberian_hunting_expansion": "Hunting Expansion",
     "mesoamerican_ideas": "Mesoamerican Ideas",
+    "nahuatl": "Nahuatl",
+    "GAM": "Guamar",
+    "CCM": "Chichimeca",
     "olmec_legacy": "Olmec Legacy",
     "altepetl": "Altepetl",
     "feathered_serpent": "The Feathered Serpent",
@@ -42004,6 +44620,8 @@
     "pyramid_architecture": "Pyramid Architecture",
     "obsidian_and_jade": "Obsidian and Jade",
     "TIB_ideas": "Tibetan Ideas",
+    "tibetan": "Tibetan",
+    "vajrayana": "Vajrayana",
     "vajrayana_buddhism": "Vajrayana Buddhism",
     "bon_influence": "Bön Influence.",
     "yaks": "Yaks!",
@@ -42012,6 +44630,8 @@
     "way_of_ancients": "The Way of the Ancients",
     "pale_earth": "The Pale Earth School",
     "west_african_ideas": "West African Ideas",
+    "technology_group": "technology_group",
+    "sub_saharan": "West African",
     "west_african_idea_1": "Griot Tradition",
     "west_african_idea_2": "Salt Caravans",
     "west_african_idea_3": "Kola Nuts",
@@ -42020,6 +44640,8 @@
     "west_african_idea_6": "The Great River",
     "west_african_idea_7": "Maintain Minor Kings",
     "andean_ideas": "Andean Ideas",
+    "andean": "Andean",
+    "aimara": "Aimara",
     "andean_idea_1": "Talking Knots",
     "andean_idea_2": "Mountain Roads Network",
     "andean_idea_3": "Tears of the Sun",
@@ -42044,6 +44666,8 @@
     "head_hunters": "Head Hunters",
     "wall_builders": "Wall Builders",
     "caucasus_ideas": "Caucasian Ideas",
+    "caucasian": "Caucasian",
+    "azerbaijani": "Azerbaijani",
     "crossroads_of_cultures": "Crossroad Of Cultures",
     "alan_mercenaries": "Alan Mercenaries",
     "caucasus_hit_and_run": "Hit and Run",
@@ -42052,6 +44676,8 @@
     "eastern_influence": "Eastern Influence",
     "caucasus_cavalry_armies": "Cavalry Armies",
     "ruthenian_ideas": "Ruthenian Ideas",
+    "ruthenian": "Ruthenian",
+    "byelorussian": "Byelorussian",
     "mother_of_russian_cities": "The Mother of Russian States",
     "international_influences": "Foreign Influences",
     "zaporizhian_cossacs": "Zaporozhian Cossacks",
@@ -42076,6 +44702,7 @@
     "guajiro_enemy_of_my_enemy": "Enemy Of My Enemy",
     "guajiro_jungle_warfare": "Jungle Warfare",
     "shan_ideas": "Shan Ideas",
+    "shan": "Shan",
     "shan_fortified_cities": "Fortified Cities",
     "shan_wet_rice": "Wet Rice Cultivation",
     "sao_pha": "Sao Pha",
@@ -42084,6 +44711,8 @@
     "shan_chronicles": "Shan Chronicles",
     "shan_expansionism": "Expansionism",
     "chinese_ideas": "Chinese Ideas",
+    "east_asian": "Chinese",
+    "CGS": "Changsheng",
     "keju_examination": "The Keju Examination",
     "scholar_gentry": "Scholar Gentry",
     "order_of_four_occupations": "Order of the Four Occupations",
@@ -42092,6 +44721,9 @@
     "son_of_heaven": "Son of Heaven",
     "middle_kingdom": "Middle Kingdom",
     "vindhyan_ideas": "Vindhyan Ideas",
+    "BND": "Bundelkhand",
+    "BGL": "Baghelkhand",
+    "PAN": "Kalinjar",
     "bundelkhandi_rajput_connections": "Rajput Connections",
     "forts_of_bundelkhand": "Forts of the Vindhyas",
     "bundelkhandi_sacred_land": "A Sacred Land",
@@ -42100,6 +44732,7 @@
     "bundelkhandi_diamonds": "Diamond Mines",
     "candella_legacy": "Candella Legacy",
     "kurdish_ideas": "Kurdish Ideas",
+    "kurdish": "Kurdish",
     "kurdish_warriors": "Mountain Warriors",
     "li_gora_gawiri_kurd_misilman": "Li Gora Gawirî Kurd Misilman e",
     "kurdish_tribes": "Kurdish Tribes",
@@ -42108,6 +44741,7 @@
     "legacy_of_the_kurdish_dynasties": "Legacy of the Kurdish Dynasties",
     "gorani_literature": "Gorani Literature",
     "laotian_ideas": "Laotian Ideas",
+    "lao": "Laotian",
     "lao_phra_lak_phra_lam": "Phra Lak Phra Lam",
     "lao_nithan_khun_borom": "Nithan Khun Borom",
     "lao_satsana_phi": "Satsana Phi",
@@ -42115,6 +44749,9 @@
     "lao_southern_silk_road": "Southern Silk Road",
     "lao_hill_warriors": "Laotian Hill Warfare",
     "somali_ideas": "Somali Ideas",
+    "somali": "Somali",
+    "harari": "Harari",
+    "afar": "Afar",
     "somali_maritime_heritage": "Maritime Heritage",
     "somali_qalqads": "Qalqads",
     "somali_clans": "Somali Clans",
@@ -42123,6 +44760,9 @@
     "somali_corsairs_of_the_red_sea": "Corsairs of the Red Sea",
     "somali_perso_arab_influx": "Arab and Persian Influx",
     "sulawesi_ideas": "Sulawesi Ideas",
+    "MKS": "Makassar",
+    "BTN": "Buton",
+    "LUW": "Luwu",
     "sulawesi_intra_asian_trade": "Intra-Asian Trade Network",
     "sulawesi_bajau": "The Bajau",
     "sulawesi_prau": "The Prau",
@@ -42131,6 +44771,7 @@
     "sulawesi_entrepot": "Entrepot of Trade",
     "sulawesi_assymetrical_warfare": "Asymmetrical Resistance",
     "mayan_ideas": "Mayan Ideas",
+    "mesoamerican_religion": "Mayan",
     "mayan_sacred_cenote": "The Sacred Cenote",
     "mayan_building_traditions": "Building Traditions",
     "mayan_ancient_feuds": "Ancient Feuds",
@@ -42139,6 +44780,7 @@
     "mayan_remote_isolation": "Remote Isolation",
     "mayan_caste_war": "Caste War",
     "moluccan_ideas": "Moluccan Ideas",
+    "moluccan": "Moluccan",
     "moluccan_spice_islands": "The Spice Islands",
     "moluccan_cultural_heritage": "Shared Cultural Heritage",
     "moluccan_agents_of_trade": "Agents of Trade",
@@ -42147,6 +44789,7 @@
     "moluccan_ally_papuan_raiders": "Alliance with the Papuans",
     "moluccan_pragmatic_diplomacy": "Pragmatic Diplomacy",
     "greek_ideas": "Greek Ideas",
+    "greek": "Greek",
     "greek_orthodox_faith": "Greek Orthodox Faith",
     "greek_maritime_heritage": "Maritime Heritage",
     "greek_klephtic_irregulars": "Klephtic Recruitment",
@@ -42155,6 +44798,8 @@
     "greek_philhellenism": "Philhellenism",
     "greek_enlightenment": "Greek Enlightenment",
     "nubian_ideas": "Nubian Ideas",
+    "nubian": "Nubian",
+    "beja": "Beja",
     "nubian_nile": "The Nile",
     "nubian_heritage": "Nubian Heritage",
     "nubian_sahara": "Warriors of the Sahara Desert",
@@ -42163,6 +44808,7 @@
     "nubian_desert_cavalry": "Desert Cavalry",
     "nubian_fortified_strongholds": "Fortified Strongholds",
     "french_culture_ideas": "French Ducal Ideas",
+    "french": "French",
     "french_men_of_trade": "Men of Trade",
     "french_renaissance_palaces": "Renaissance Palaces",
     "french_qui_ruit_et_lethum": "Qui Ruit Et Lethum",
@@ -42171,6 +44817,7 @@
     "french_enlightenment": "French Enlightenment",
     "french_la_petite_nation": "La Petite Nation",
     "african_great_lakes_ideas": "Interlacustrine Ideas",
+    "great_lakes_group": "Great Lakes",
     "source_of_the_nile": "Source of the Nile",
     "heirs_of_kitara": "Heirs of Kitara",
     "no_illegitimate_children": "No Illegitimate Children",
@@ -42179,6 +44826,7 @@
     "unity_of_clans": "Unity of the Clans",
     "development_of_clientship": "Development of Clientship",
     "malagasy_ideas": "Malagasy Ideas",
+    "madagasque": "Malagasy",
     "malagasy_fortify_coastline": "Fortify the Coastline",
     "malagasy_zafivolemena": "Zafivolamena",
     "malagasy_raid_warfare": "Martial Traditions",
@@ -42186,6 +44834,8 @@
     "malagasy_foreign_traders": "Control of the Foreign Traders",
     "malagasy_permanent_taxation_system": "Permanent Taxation System",
     "zambezi_ideas": "Zambezi Ideas",
+    "nyasa": "Nyasa",
+    "makua": "Makua",
     "zambezi_warrior_culture": "Warrior Culture",
     "zambezi_control_the_zambezi_trade": "Control of the Zambezi Trade",
     "zambezi_strengthen_the_chieftaincies": "Strengthen the Chieftaincies",
@@ -42193,6 +44843,7 @@
     "zambezi_wealth_of_the_shire_valley": "Wealth of the Shire Valley",
     "zambezi_loyal_local_representatives": "Loyal Representatives",
     "congolese_minor_ideas": "Kongolese Ideas",
+    "kongo_group": "Congo",
     "congolese_minor_isolated_lands": "The Kongo River Basin",
     "congolese_minor_elephant_hunts": "Elephant Hunts",
     "congolese_minor_aristocratic_merit": "Aristocratic Merit",
@@ -42201,6 +44852,7 @@
     "congolese_minor_subordinate_chiefs": "Subordinate Chiefs",
     "congolese_minor_ivory_trade": "The Ivory Trade",
     "caspian_ideas": "Caspian Ideas",
+    "mazandarani": "Mazandarani",
     "caspian_riches_of_tabarestan": "The Riches of Tabarestan",
     "caspian_time_of_turmoil": "A Time of Turmoil",
     "caspian_silk": "Caspian Silk",
@@ -42209,6 +44861,9 @@
     "caspian_safe_haven": "A Safe Haven",
     "caspian_promote_foreign_trade": "Promote Foreign Trade",
     "luzon_ideas": "Luzon Ideas",
+    "PGS": "Pangasinan",
+    "TDO": "Tondo",
+    "MNA": "Maynila",
     "luzon_barangay": "Barangay State",
     "luzon_conquest_of_paradise": "Conquest of Paradise",
     "luzon_sino_philippine_trade": "Sino-Philippine Trade",
@@ -42217,6 +44872,7 @@
     "luzon_a_safe_haven": "A Safe Haven",
     "luzon_expand_the_sugar_production": "Expand the Sugar Production",
     "highland_scottish_ideas": "Highlander Ideas",
+    "highland_scottish": "Highlander",
     "hsc_the_wallace": "The Wallace",
     "hsc_highland_clans": "The Highland Clans",
     "hsc_storm_the_castle": "Storming the Castle",
@@ -42233,6 +44889,8 @@
     "dec_marathi_cultivators": "Strengthen Ties with Marathi Cultivators",
     "dec_marathi_habshi_state": "Joint Marathi-Habshi State",
     "nepalese_minor_ideas": "Nepalese Princedom Ideas",
+    "pahari": "Pahari",
+    "nepali": "Nepali",
     "nep_construct_temples": "Continue Temple Construction",
     "nep_kashmiri_traders": "Invite Kashmiri Traders",
     "nep_new_festivals": "Institute New Festivals",
@@ -42241,6 +44899,8 @@
     "nep_judicial_reforms": "Enact Judicial Reforms",
     "nep_end_division_of_domains": "End the Division of Domains",
     "garjati_ideas": "Garjati Ideas",
+    "jharkhandi": "Jharkandi",
+    "garjati": "Garjati",
     "garjati_ancient_mandalas": "Ancient Mandalas",
     "garjati_tribal_feudatories": "Tribal Feudatories",
     "garjati_extend_tanks_and_reservoirs": "Extend Tanks and Reservoirs",

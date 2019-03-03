@@ -44,4 +44,30 @@
   span[href]:hover {
     text-decoration: underline;
   }
+  .PropertyList {
+  }
+  .Property {
+    display: flex;
+
+    :first-child {
+      margin-right: 10px;
+    }
+  }
+  .OR, .AND, .NOT {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    padding: 5px;
+    width: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+    margin-bottom: 1px;
+  }
+  .OR { background-color: #8f8; }
+  .AND { background-color: #88f; }
+  .NOT { background-color: #f88; }
+  .val {
+    align-self: center;
+  }
 }

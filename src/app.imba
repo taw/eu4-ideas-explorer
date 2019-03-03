@@ -72,13 +72,39 @@ tag BasicIdeas
           db:loc[idea:name]
       <BasicIdeasCard[idea]>
 
+tag PropertyList
+  def render
+    <self>
+      for entry in data:plist
+        <Property[entry]>
+
+tag Property
+  def render
+    let key = data[0]
+    let val = data[1]
+    <self>
+      if key === "AND" || key === "OR" || key === "NOT"
+        <div.key.{key}>
+          key
+      else
+        <div.key>
+          db:loc[key] || key
+      <div.val>
+        if val === true
+          "Yes"
+        else if val === false
+          "No"
+        else if typeof(val) === "object"
+          <PropertyList[val]>
+        else
+          db:loc[val] || val
+
 tag NationalIdeasCard
   def render
     <self>
       <div>
         "Trigger"
-      <div>
-        JSON.stringify(data:trigger)
+      <PropertyList[data:trigger]>
       <div>
         "Tradition"
       <div>
@@ -139,6 +165,13 @@ tag App
     self.router.mode = 'hash'
 
   def render
+    # FFS
+    let idea1 = db:national.find do |x| x:name == "barbary_pirate_ideas"
+    let idea2 = db:national.find do |x| x:name == "vindhyan_ideas"
+    let idea3 = db:national.find do |x| x:name == "pirate_ideas"
+    let idea4 = db:national.find do |x| x:name == "indian_muslim_ideas"
+    let idea5 = db:national.find do |x| x:name == "native_ideas"
+
     <self>
       <header>
         "EU4 Idea Explorer"
@@ -149,5 +182,11 @@ tag App
       <BasicIdeas route="/basic/:id">
       <NationalIdeas route="/national/:id">
       <Effect route="/effects/:id">
+
+      <NationalIdeasCard[idea1]>
+      <NationalIdeasCard[idea2]>
+      <NationalIdeasCard[idea3]>
+      <NationalIdeasCard[idea4]>
+      <NationalIdeasCard[idea5]>
 
 Imba.mount <App>
