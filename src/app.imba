@@ -1,5 +1,5 @@
-require 'imba-router'
-import './data/data.json' as db
+require "imba-router"
+import "./data/data.json" as db
 
 tag EffectCard
   def render
@@ -162,7 +162,7 @@ tag Nav
 
 tag App
   def build
-    self.router.mode = 'hash'
+    self.router.mode = "hash"
 
   def render
     <self>
