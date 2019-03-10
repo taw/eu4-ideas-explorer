@@ -1,27 +1,48 @@
+# wow, all 3 styles
 require "imba-router"
 import "./data/data.json" as db
+import {sprintf} from "sprintf-js"
+
+# It should defend on name
+let def format_bonus_value(name, val)
+  if val === true
+    "Yes"
+  else if val === false
+    "No"
+  else if typeof(val) === "number"
+    sprintf("%+f%%", val*100)
+  else
+    # ???
+    val
 
 tag EffectCard
+  prop name
   def render
     <self>
       for instance in data
         <div>
-          instance[0]
+          format_bonus_value(name, instance[0])
         <div>
           <span route-to="/{instance[1]}/{instance[2]}">
             db:loc[instance[2]]
             " — "
-            db:loc[instance[3]]
+            if instance[3] == "start"
+              "Tradition"
+            else if instance[3] == "bonus"
+              "Ambition"
+            else
+              db:loc[instance[3]]
+
 
 tag Effect
   def render
-    let effect = db:effects[params:id]
+    let name = params:id
+    let effect = db:effects[name]
     <self>
       <nav>
         <span.active>
-          db:loc[params:id]
-      <EffectCard[effect]>
-
+          db:loc[name]
+      <EffectCard[effect] name=name>
 
 tag EffectsIndex
   def render
@@ -41,23 +62,27 @@ tag Bonus
     <self>
       db:loc[key]
       " — "
-      val
+      format_bonus_value(key, val)
 
 tag BasicIdeasCard
   def render
     <self>
+      <div>
       <div>
         "Category"
       <div>
         data:category
       for idea, i in data:ideas
         <div>
-          "{i+1} " + db:loc[idea:name]
+          "{i+1}"
+        <div>
+          db:loc[idea:name]
         <div>
           for bonus in idea:bonuses
             <Bonus[bonus]>
       <div>
-        "Bonus"
+      <div>
+        "Ambition"
       <div>
         for bonus in data:bonus:bonuses
           <Bonus[bonus]>
@@ -103,8 +128,10 @@ tag NationalIdeasCard
   def render
     <self>
       <div>
+      <div>
         "Trigger"
       <PropertyList[data:trigger]>
+      <div>
       <div>
         "Tradition"
       <div>
@@ -112,12 +139,15 @@ tag NationalIdeasCard
           <Bonus[bonus]>
       for idea, i in data:ideas
         <div>
-          "{i+1} " + db:loc[idea:name]
+          i+1
+        <div>
+          db:loc[idea:name]
         <div>
           for bonus in idea:bonuses
             <Bonus[bonus]>
       <div>
-        "Bonus"
+      <div>
+        "Ambition"
       <div>
         for bonus in data:bonus:bonuses
           <Bonus[bonus]>

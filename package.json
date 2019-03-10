@@ -31,6 +31,7 @@
     "imba": "1.4.1",
     "imba-router": "^0.2.0",
     "normalize-scss": "^7.0.1",
+    "sprintf-js": "^1.1.2",
     "style-loader": "^0.23.1",
     "webpack-dev-server": "^3.1.10"
   },
