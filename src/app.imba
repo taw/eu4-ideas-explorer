@@ -1,6 +1,11 @@
 # wow, all 3 styles
 require "imba-router"
-import "./data/data.json" as db
+import "./data/basic.json" as data_basic
+import "./data/national.json" as data_national
+import "./data/loc.json" as data_loc
+import "./data/effects.json" as data_effects
+import "./data/effect_types.json" as data_effect_types
+
 import {sprintf} from "sprintf-js"
 
 # It should defend on name
@@ -9,10 +14,11 @@ let def format_bonus_value(name, val)
     "Yes"
   else if val === false
     "No"
-  else if typeof(val) === "number"
+  else if data_effect_types[name] === "percent"
     sprintf("%+f%%", val*100)
+  else if data_effect_types[name] === "int"
+    sprintf("%+d", val)
   else
-    # ???
     val
 
 tag EffectCard
@@ -24,43 +30,43 @@ tag EffectCard
           format_bonus_value(name, instance[0])
         <div>
           <span route-to="/{instance[1]}/{instance[2]}">
-            db:loc[instance[2]]
+            data_loc[instance[2]]
             " — "
             if instance[3] == "start"
               "Tradition"
             else if instance[3] == "bonus"
               "Ambition"
             else
-              db:loc[instance[3]]
+              data_loc[instance[3]]
 
 
 tag Effect
   def render
     let name = params:id
-    let effect = db:effects[name]
+    let effect = data_effects[name]
     <self>
       <nav>
         <span.active>
-          db:loc[name]
+          data_loc[name]
       <EffectCard[effect] name=name>
 
 tag EffectsIndex
   def render
-    let effects = Object.keys(db:effects)
+    let effects = Object.keys(data_effects)
     effects.sort()
     <self>
       <ul>
         for effect_name in effects
           <li>
             <span route-to="/effects/{effect_name}">
-              db:loc[effect_name]
+              data_loc[effect_name]
 
 tag Bonus
   def render
     let key = data[0]
     let val = data[1]
     <self>
-      db:loc[key]
+      data_loc[key]
       " — "
       format_bonus_value(key, val)
 
@@ -76,7 +82,7 @@ tag BasicIdeasCard
         <div>
           "{i+1}"
         <div>
-          db:loc[idea:name]
+          data_loc[idea:name]
         <div>
           for bonus in idea:bonuses
             <Bonus[bonus]>
@@ -90,11 +96,11 @@ tag BasicIdeasCard
 
 tag BasicIdeas
   def render
-    let idea = db:basic.find do |x| x:name == params:id
+    let idea = data_basic.find do |x| x:name == params:id
     <self>
       <nav>
         <span.active>
-          db:loc[idea:name]
+          data_loc[idea:name]
       <BasicIdeasCard[idea]>
 
 tag PropertyList
@@ -113,7 +119,7 @@ tag Property
           key
       else
         <div.key>
-          db:loc[key] || key
+          data_loc[key] || key
       <div.val>
         if val === true
           "Yes"
@@ -122,7 +128,7 @@ tag Property
         else if typeof(val) === "object"
           <PropertyList[val]>
         else
-          db:loc[val] || val
+          data_loc[val] || val
 
 tag NationalIdeasCard
   def render
@@ -141,7 +147,7 @@ tag NationalIdeasCard
         <div>
           i+1
         <div>
-          db:loc[idea:name]
+          data_loc[idea:name]
         <div>
           for bonus in idea:bonuses
             <Bonus[bonus]>
@@ -154,30 +160,30 @@ tag NationalIdeasCard
 
 tag NationalIdeas
   def render
-    let idea = db:national.find do |x| x:name == params:id
+    let idea = data_national.find do |x| x:name == params:id
     <self>
       <nav>
         <span.active>
-          db:loc[idea:name]
+          data_loc[idea:name]
       <NationalIdeasCard[idea]>
 
 tag BasicIdeasIndex
   def render
     <self>
       <ul>
-        for idea in db:basic
+        for idea in data_basic
           <li>
             <span route-to="/basic/{idea:name}">
-              db:loc[idea:name]
+              data_loc[idea:name]
 
 tag NationalIdeasIndex
   def render
     <self>
       <ul>
-        for idea in db:national
+        for idea in data_national
           <li>
             <span route-to="/national/{idea:name}">
-              db:loc[idea:name]
+              data_loc[idea:name]
 
 tag Nav
   def render
