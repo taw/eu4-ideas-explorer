@@ -16,7 +16,8 @@
     "build": "webpack --mode=production",
     "watch": "webpack --watch --progress --colors --display-modules",
     "predeploy": "pnpm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "test": "imba-spec"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,7 @@
     "gh-pages": "^2.0.1",
     "imba": "1.4.1",
     "imba-router": "^0.2.0",
+    "imba-spec": "0.0.3",
     "normalize-scss": "^7.0.1",
     "sprintf-js": "^1.1.2",
     "style-loader": "^0.23.1",
