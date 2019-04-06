@@ -8,3 +8,5 @@ export tag Nav
           "National Ideas"
         <span route-to="/effects/">
           "Effects"
+        <span route-to="/model/">
+          "Model"

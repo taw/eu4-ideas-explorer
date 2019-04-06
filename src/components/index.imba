@@ -29,5 +29,8 @@ export NationalIdeas
 import NationalIdeasIndex from './NationalIdeasIndex'
 export NationalIdeasIndex
 
+import ModelView from './ModelView'
+export ModelView
+
 import Nav from './Nav'
 export Nav
