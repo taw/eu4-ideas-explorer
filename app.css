@@ -470,3 +470,6 @@ template {
 
 .App .val {
   align-self: center; }
+
+.App .ModelView {
+  margin-left: 1em; }
