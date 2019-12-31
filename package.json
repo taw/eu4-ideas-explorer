@@ -29,13 +29,13 @@
     "express": "^4.16.2",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "gh-pages": "^2.0.1",
-    "imba": "1.4.8",
+    "imba": "1.5.2",
     "imba-router": "^0.2.0",
     "imba-spec": "0.0.5",
     "normalize-scss": "^7.0.1",
     "sprintf-js": "^1.1.2",
     "style-loader": "^0.23.1",
-    "webpack-dev-server": "^3.1.10"
+    "webpack-dev-server": "^3.7.1"
   },
   "devDependencies": {
     "node-sass": "^4.12.0",
